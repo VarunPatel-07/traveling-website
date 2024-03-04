@@ -1,0 +1,3020 @@
+@media only screen and (max-width:380px) {
+
+     // <!-- header-section -->
+     .header-section {
+          background: linear-gradient(112.04deg, #4184E9 14.01%, #19A8D1 89.83%);
+
+          .background {
+               background-image: url(images/header-bg.png);
+
+               &::after {
+                    width: 0px;
+                    height: 0px;
+               }
+
+               .navbar-1 {
+                    border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+                    position: relative;
+                    padding: 10px 0;
+
+                    &::after {
+                         display: none;
+                    }
+
+                    .navbar {
+                         height: auto;
+
+                         .navbar-toggler {
+                              border: 0;
+                              outline: 0;
+                              background-color: white;
+
+                              ion-icon {
+                                   font-size: 30px;
+                              }
+                         }
+
+                         .navbar-brand {
+                              width: 150px;
+
+                              img {
+                                   width: 100%;
+                              }
+                         }
+
+                         .navbar-nav {
+                              justify-content: center;
+                              align-items: center;
+
+                              .star-animation {
+                                   display: none;
+
+                              }
+
+                              .nav-item {
+
+                                   .nav-link {
+                                        font-size: 17px;
+                                        line-height: 22px;
+                                        height: auto;
+                                        align-items: start;
+                                        display: flex;
+                                        justify-content: start;
+                                        align-items: center;
+
+
+                                   }
+
+                                   &:nth-child(1) {
+                                        .nav-link {
+                                             color: rgb(255, 255, 255);
+                                        }
+
+                                        width: 65px;
+
+                                        &:hover~ {
+                                             .nav-link {
+                                                  color: rgb(255, 255, 255);
+                                             }
+
+                                             .star-animation {
+                                                  left: 0;
+                                             }
+                                        }
+                                   }
+
+                                   &:nth-child(2) {
+                                        width: 104px;
+
+                                        &:hover~ {
+                                             .nav-link {
+                                                  color: rgb(255, 255, 255);
+                                             }
+
+                                             .star-animation {
+                                                  left: 65px;
+                                                  width: 104px;
+                                             }
+                                        }
+                                   }
+
+                                   &:nth-child(3) {
+                                        width: 65px;
+
+                                        &:hover~ {
+                                             .nav-link {
+                                                  color: rgb(255, 255, 255);
+                                             }
+
+                                             .star-animation {
+                                                  left: 170px;
+                                                  width: 65px;
+                                             }
+                                        }
+                                   }
+
+                                   &:nth-child(4) {
+                                        width: 65px;
+
+                                        &:hover~ {
+                                             .nav-link {
+                                                  color: rgb(255, 255, 255);
+                                             }
+
+                                             .star-animation {
+                                                  left: 235px;
+                                                  width: 65px;
+                                             }
+                                        }
+                                   }
+
+                                   &:nth-child(5) {
+                                        width: 65px;
+
+                                        &:hover~ {
+                                             .nav-link {
+                                                  color: rgb(255, 255, 255);
+                                             }
+
+                                             .star-animation {
+                                                  left: 300px;
+                                                  width: 65px;
+                                             }
+                                        }
+                                   }
+
+                                   &:nth-child(6) {
+                                        width: 86px;
+
+                                        &:hover~ {
+                                             .nav-link {
+                                                  color: rgb(255, 255, 255);
+                                             }
+
+                                             .star-animation {
+                                                  left: 365px;
+                                                  width: 86px;
+                                             }
+                                        }
+                                   }
+
+
+
+
+                              }
+
+                              .nav-item-1 {
+                                   width: 100%;
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;
+                                   gap: 15px;
+                                   padding: 5px 0;
+
+                                   .nav-link-1 {
+                                        list-style-type: none;
+                                        text-decoration: none;
+                                        padding: 0 10px;
+
+                                        .img-1 {
+                                             img {
+                                                  width: 115px;
+                                             }
+                                        }
+
+                                        .img-2 {
+                                             img {
+                                                  width: 35px;
+                                             }
+                                        }
+                                   }
+
+                              }
+                         }
+
+                    }
+               }
+
+               .hero-section {
+                    .flex-section {
+                         flex-direction: column;
+                         margin-bottom: 250px;
+                         .text-section {
+                              width: 100%;
+                              padding: 20px 0 0 0;
+
+                              .txt {
+                                   width: 100%;
+
+                                   h2 {
+                                        font-size: 40px;
+                                        line-height: 50px;
+
+                                        @media only screen and (min-width:350px) {
+                                             font-size: 48px;
+                                             line-height: 55px;
+                                        }
+                                   }
+
+                                   p {
+                                        font-size: 16px;
+                                        font-weight: 400;
+                                        line-height: 26px;
+                                        width: 100%;
+                                   }
+
+                                   .button {
+                                        width: 160px;
+
+                                        button {
+                                             padding: 5px 0;
+                                             font-size: 16px;
+                                        }
+                                   }
+                              }
+                         }
+
+                         .image-section {
+                              width: 100%;
+
+                              .img {
+                                   img {
+                                        width: 100%;
+                                   }
+                              }
+                         }
+                    }
+               }
+
+          }
+     }
+
+     //<!-- book a trip -->
+     .book-a-trip {
+          padding: 30px 0 0 0;
+          .trip-section {
+               .title {
+                    h2 {
+                         font-family: 'poppins';
+                         font-style: normal;
+                         font-size: 32px;
+                         font-weight: 600;
+                         line-height: 48px;
+                         color: #121212;
+                         text-align: center;
+                    }
+
+
+               }
+
+               .info-section {
+                    background-image: url("");
+
+                    .title-btn {
+                         .button {
+                              width: 100%;
+                              flex-direction: column;
+
+                              .animate {
+                                   width: 200px;
+                                   height: 40px;
+                                   top: 0;
+                                   left: 50%;
+                                   transform: translateX(-50%);
+                                   -webkit-transform: translateX(-50%);
+                                   -moz-transform: translateX(-50%);
+                                   -ms-transform: translateX(-50%);
+                                   -o-transform: translateX(-50%);
+                              }
+
+                              li {
+                                   width: 200px;
+                                   height: 40px;
+                              }
+                         }
+
+                         ul li.active a {
+                              color: #fff;
+                         }
+
+                         ul li:nth-child(1).active~.animate {
+                              top: 0;
+                              left: 50%;
+                              transform: translateX(-50%);
+                              -webkit-transform: translateX(-50%);
+                              -moz-transform: translateX(-50%);
+                              -ms-transform: translateX(-50%);
+                              -o-transform: translateX(-50%);
+                         }
+
+                         ul li:nth-child(2).active~.animate {
+                              top: 65px;
+                              left: 50%;
+                              transform: translateX(-50%);
+                              -webkit-transform: translateX(-50%);
+                              -moz-transform: translateX(-50%);
+                              -ms-transform: translateX(-50%);
+                              -o-transform: translateX(-50%);
+                         }
+
+                         ul li:nth-child(3).active~.animate {
+                              top: 130px;
+                              left: 50%;
+                              transform: translateX(-50%);
+                              -webkit-transform: translateX(-50%);
+                              -moz-transform: translateX(-50%);
+                              -ms-transform: translateX(-50%);
+                              -o-transform: translateX(-50%);
+                         }
+                    }
+
+                    .first-part {
+                         flex-direction: column;
+                         width: 50%;
+                         margin: 30px auto 0 auto;
+                         align-items: start;
+
+                         .input {
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              gap: 10px;
+
+                              input {
+                                   border: 1px solid #8d8d8d;
+                              }
+
+                              .form-check-label {
+                                   font-family: 'poppins';
+                                   font-style: normal;
+                                   font-size: 16px;
+                                   font-weight: 500;
+                                   line-height: 21px;
+                                   color: #555555;
+                                   text-align: center;
+                              }
+                         }
+                    }
+
+                    .second-part {
+                         flex-direction: column;
+                         margin-top: 20px;
+
+                         .input-txt {
+                              width: 100%;
+
+                              input {
+                                   width: 100%;
+
+                                   ::placeholder {
+                                        color: #555555;
+                                   }
+                              }
+                         }
+
+                         .button {
+                              width: 48px;
+
+                              img {
+                                   width: 100%;
+                              }
+                         }
+                    }
+               }
+          }
+     }
+
+     // <!-- Destinations-section -->
+     .destinations-section {
+          padding: 30px 0 0 0;
+          background-image: url("");
+
+          .title {
+               h2 {
+                    font-size: 40px;
+                    line-height: 60px;
+                    text-align: start;
+
+                    @media only screen and (min-width:350px) {
+                         font-size: 45px;
+                    }
+               }
+
+               p {
+                    font-size: 14px;
+                    line-height: 26px;
+                    text-align: start;
+
+                    @media only screen and (min-width:350px) {
+                         font-size: 16px;
+                    }
+               }
+          }
+
+          .card-1 {
+               width: 95%;
+               margin: auto;
+          }
+     }
+
+     // <!-- Best Deals -->
+     .best-deals {
+          padding: 40px 0 0 0;
+          background-image: url("");
+
+          .flex-section {
+               flex-direction: column;
+
+               .img {
+                    width: 100%;
+
+                    img {
+                         width: 100%;
+                    }
+               }
+          }
+     }
+
+     // <!-- Plan your travel -->
+     .plan-your-travel {
+          padding: 40px 0 0 0;
+          background-image: url("");
+
+          .image {
+               width: 100%;
+
+               img {
+                    width: 100%;
+               }
+          }
+
+          .text-section {
+               width: 100%;
+               margin-top: 30px;
+
+               .title {
+                    h2 {
+                         font-size: 30px;
+                         line-height: 40px;
+                    }
+               }
+          }
+
+          .title-text {
+               margin-top: 20px;
+
+               .flex {
+                    .img {
+                         width: 44px;
+
+                         img {
+                              width: 100%;
+                         }
+                    }
+
+                    .txt {
+                         p {
+                              font-weight: 400;
+                              font-size: 15px;
+                              line-height: 26px;
+                         }
+                    }
+               }
+          }
+     }
+
+     // <!-- simple-way-to-book-your-flight -->
+     .booking-section {
+          padding: 50px 0;
+          background-image: url("");
+
+          .text-part {
+               width: 100%;
+
+               .title {
+                    h2 {
+                         font-weight: 600;
+                         font-size: 30px;
+                         line-height: 50px;
+                    }
+
+                    p {
+                         font-weight: 400;
+                         font-size: 16px;
+                         line-height: 28px;
+                    }
+               }
+          }
+
+          .image-part {
+               width: 100%;
+               margin-top: 30px;
+
+               img {
+                    width: 100%;
+               }
+          }
+     }
+
+     // <!-- newsletter-section -->
+     .newsletter-section {
+          padding: 30px 10px;
+          margin-top: 0px;
+
+          .newsletter-text {
+               h3{
+                    font-size: 16px;
+               }
+               h2 {
+                    font-size: 24px;
+                    font-weight: 600;
+                    line-height: 40px;
+               }
+
+               p {
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 25px;
+               }
+          }
+
+          .input-section {
+               width: 100%;
+               gap: 10px;
+
+               .input-txt {
+                    width: 65%;
+
+                    input {
+                         width: 100%;
+                    }
+               }
+
+               .btn-1 {
+                    width: 35%;
+
+                    button {
+                         font-weight: 500;
+                         font-size: 14px;
+                         line-height: 28px;
+                    }
+               }
+          }
+     }
+
+     // <!-- footer-section -->
+     .footer-section {
+          padding: 40px 0 0 0;
+          .footer-flex-section {
+               flex-direction: column;
+
+               padding-bottom: 20px;
+
+               .footer-flex {
+                    width: 100%;
+
+                    .title {
+                         h2 {
+
+                              font-weight: 600;
+                              font-size: 20px;
+                              line-height: 27px;
+                         }
+                    }
+
+                    .text {
+                         margin-top: 14px;
+
+                         .flex {
+                              .img {
+                                   width: 16px;
+
+                                   img {
+                                        width: 100%;
+                                   }
+                              }
+                         }
+
+                         .txt {
+                              p {
+                                   font-weight: 400;
+                                   font-size: 16px;
+                                   line-height: 34px;
+                              }
+                         }
+                    }
+
+                    .image-section {
+                         gap: 20px;
+
+                         .image {
+                              img {
+                                   width: 100%;
+                              }
+                         }
+                    }
+               }
+          }
+
+          .copy-right-section {
+               margin-top: 17px;
+
+               .flex-section {
+                    flex-direction: column;
+                    justify-content: start;
+                    align-items: start;
+                    gap: 30px;
+
+                    .copy-right {
+                         margin-left: 0;
+
+                         p {
+                              font-weight: 400;
+                              font-size: 12px;
+                              line-height: 20px;
+                         }
+                    }
+
+                    .payment-section {
+                         flex-wrap: wrap;
+                         gap: 10px;
+
+                         .img {
+                              width: 55px;
+
+                              img {
+                                   width: 100%;
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@media (min-width:381px) and (max-width:575px) {
+
+     // <!-- header-section -->
+     .header-section {
+          background: linear-gradient(112.04deg, #4184E9 14.01%, #19A8D1 89.83%);
+
+          .background {
+               background-image: url(images/header-bg.png);
+
+               &::after {
+                    width: 0px;
+                    height: 0px;
+               }
+
+               .navbar-1 {
+                    border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+                    position: relative;
+                    padding: 10px 0;
+
+                    &::after {
+                         display: none;
+                    }
+
+                    .navbar {
+                         height: auto;
+
+                         .navbar-toggler {
+                              border: 0;
+                              outline: 0;
+                              background-color: white;
+
+                              ion-icon {
+                                   font-size: 30px;
+                              }
+                         }
+
+                         .navbar-brand {
+                              width: 150px;
+
+                              img {
+                                   width: 100%;
+                              }
+                         }
+
+                         .navbar-nav {
+                              justify-content: center;
+                              align-items: center;
+
+                              .star-animation {
+                                   display: none;
+
+                              }
+
+                              .nav-item {
+
+                                   .nav-link {
+                                        font-size: 17px;
+                                        line-height: 22px;
+                                        height: auto;
+                                        align-items: start;
+                                        display: flex;
+                                        justify-content: start;
+                                        align-items: center;
+
+
+                                   }
+
+                                   &:nth-child(1) {
+                                        .nav-link {
+                                             color: rgb(255, 255, 255);
+                                        }
+
+                                        width: 65px;
+
+                                        &:hover~ {
+                                             .nav-link {
+                                                  color: rgb(255, 255, 255);
+                                             }
+
+                                             .star-animation {
+                                                  left: 0;
+                                             }
+                                        }
+                                   }
+
+                                   &:nth-child(2) {
+                                        width: 104px;
+
+                                        &:hover~ {
+                                             .nav-link {
+                                                  color: rgb(255, 255, 255);
+                                             }
+
+                                             .star-animation {
+                                                  left: 65px;
+                                                  width: 104px;
+                                             }
+                                        }
+                                   }
+
+                                   &:nth-child(3) {
+                                        width: 65px;
+
+                                        &:hover~ {
+                                             .nav-link {
+                                                  color: rgb(255, 255, 255);
+                                             }
+
+                                             .star-animation {
+                                                  left: 170px;
+                                                  width: 65px;
+                                             }
+                                        }
+                                   }
+
+                                   &:nth-child(4) {
+                                        width: 65px;
+
+                                        &:hover~ {
+                                             .nav-link {
+                                                  color: rgb(255, 255, 255);
+                                             }
+
+                                             .star-animation {
+                                                  left: 235px;
+                                                  width: 65px;
+                                             }
+                                        }
+                                   }
+
+                                   &:nth-child(5) {
+                                        width: 65px;
+
+                                        &:hover~ {
+                                             .nav-link {
+                                                  color: rgb(255, 255, 255);
+                                             }
+
+                                             .star-animation {
+                                                  left: 300px;
+                                                  width: 65px;
+                                             }
+                                        }
+                                   }
+
+                                   &:nth-child(6) {
+                                        width: 86px;
+
+                                        &:hover~ {
+                                             .nav-link {
+                                                  color: rgb(255, 255, 255);
+                                             }
+
+                                             .star-animation {
+                                                  left: 365px;
+                                                  width: 86px;
+                                             }
+                                        }
+                                   }
+
+
+
+
+                              }
+
+                              .nav-item-1 {
+                                   width: 100%;
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;
+                                   gap: 15px;
+                                   padding: 5px 0;
+
+                                   .nav-link-1 {
+                                        list-style-type: none;
+                                        text-decoration: none;
+                                        padding: 0 10px;
+
+                                        .img-1 {
+                                             img {
+                                                  width: 115px;
+                                             }
+                                        }
+
+                                        .img-2 {
+                                             img {
+                                                  width: 35px;
+                                             }
+                                        }
+                                   }
+
+                              }
+                         }
+
+                    }
+               }
+
+               .hero-section {
+                    .flex-section {
+                         flex-direction: column;
+                         margin-bottom: 300px;
+
+                         .text-section {
+                              width: 100%;
+                              padding: 20px 0 0 0;
+
+                              .txt {
+                                   width: 100%;
+
+                                   h2 {
+                                        font-size: 55px;
+                                        line-height: 60px;
+                                   }
+
+                                   p {
+                                        font-size: 16px;
+                                        font-weight: 400;
+                                        line-height: 26px;
+                                        width: 100%;
+                                   }
+
+                                   .button {
+                                        width: 160px;
+
+                                        button {
+                                             padding: 5px 0;
+                                             font-size: 16px;
+                                        }
+                                   }
+                              }
+                         }
+
+                         .image-section {
+                              width: 100%;
+
+                              .img {
+                                   img {
+                                        width: 100%;
+                                   }
+                              }
+                         }
+                    }
+               }
+
+          }
+     }
+
+     //<!-- book a trip -->
+     .book-a-trip {
+          padding: 30px 0 0 0 ;
+          .trip-section {
+               .title {
+                    h2 {
+                         font-family: 'poppins';
+                         font-style: normal;
+                         font-size: 32px;
+                         font-weight: 600;
+                         line-height: 48px;
+                         color: #121212;
+                         text-align: center;
+                    }
+
+
+               }
+
+               .info-section {
+                    background-image: url("");
+
+                    .title-btn {
+                         .button {
+                              width: 100%;
+                              flex-direction: column;
+
+                              .animate {
+                                   width: 200px;
+                                   height: 40px;
+                                   top: 0;
+                                   left: 50%;
+                                   transform: translateX(-50%);
+                                   -webkit-transform: translateX(-50%);
+                                   -moz-transform: translateX(-50%);
+                                   -ms-transform: translateX(-50%);
+                                   -o-transform: translateX(-50%);
+                              }
+
+                              li {
+                                   width: 200px;
+                                   height: 40px;
+                              }
+                         }
+
+                         ul li.active a {
+                              color: #fff;
+                         }
+
+                         ul li:nth-child(1).active~.animate {
+                              top: 0;
+                              left: 50%;
+                              transform: translateX(-50%);
+                              -webkit-transform: translateX(-50%);
+                              -moz-transform: translateX(-50%);
+                              -ms-transform: translateX(-50%);
+                              -o-transform: translateX(-50%);
+                         }
+
+                         ul li:nth-child(2).active~.animate {
+                              top: 65px;
+                              left: 50%;
+                              transform: translateX(-50%);
+                              -webkit-transform: translateX(-50%);
+                              -moz-transform: translateX(-50%);
+                              -ms-transform: translateX(-50%);
+                              -o-transform: translateX(-50%);
+                         }
+
+                         ul li:nth-child(3).active~.animate {
+                              top: 130px;
+                              left: 50%;
+                              transform: translateX(-50%);
+                              -webkit-transform: translateX(-50%);
+                              -moz-transform: translateX(-50%);
+                              -ms-transform: translateX(-50%);
+                              -o-transform: translateX(-50%);
+                         }
+                    }
+
+                    .first-part {
+                         flex-direction: column;
+                         width: 50%;
+                         margin: 30px auto 0 auto;
+                         align-items: start;
+
+                         @media only screen and (min-width:430px) {
+                              flex-direction: row;
+                              width: 100%;
+                         }
+
+                         .input {
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              gap: 10px;
+
+                              input {
+                                   border: 1px solid #8d8d8d;
+                              }
+
+                              .form-check-label {
+                                   font-family: 'poppins';
+                                   font-style: normal;
+                                   font-size: 16px;
+                                   font-weight: 500;
+                                   line-height: 21px;
+                                   color: #555555;
+                                   text-align: center;
+                              }
+                         }
+                    }
+
+                    .second-part {
+                         flex-direction: column;
+                         margin-top: 20px;
+
+                         .input-txt {
+                              width: 100%;
+                              justify-content: start;
+
+                              input {
+                                   width: 100%;
+
+                                   ::placeholder {
+                                        color: #555555;
+                                   }
+                              }
+                         }
+
+                         .button {
+                              width: 48px;
+
+                              img {
+                                   width: 100%;
+                              }
+                         }
+                    }
+               }
+          }
+     }
+
+     // <!-- Destinations-section -->
+     .destinations-section {
+          padding: 30px 0 0 0;
+          background-image: url("");
+
+          .title {
+               h2 {
+                    font-size: 50px;
+                    line-height: 65px;
+                    text-align: start;
+               }
+
+               p {
+                    font-size: 16px;
+                    line-height: 26px;
+                    text-align: start;
+               }
+          }
+
+          .card-1 {
+               width: 95%;
+               margin: auto;
+          }
+     }
+
+     // <!-- Best Deals -->
+     .best-deals {
+          padding: 30px 0 0 0;
+          background-image: url("");
+
+          .flex-section {
+               flex-direction: column;
+
+               .img {
+                    width: 100%;
+
+                    img {
+                         width: 100%;
+                    }
+               }
+          }
+     }
+
+     // <!-- Plan your travel -->
+     .plan-your-travel {
+          padding: 40px 0 0;
+          background-image: url("");
+
+          .image {
+               width: 100%;
+
+               img {
+                    width: 100%;
+               }
+          }
+
+          .text-section {
+               width: 100%;
+               margin-top: 30px;
+
+               .title {
+                    h2 {
+                         font-size: 40px;
+                         line-height: 50px;
+                    }
+               }
+          }
+
+          .title-text {
+               margin-top: 20px;
+
+               .flex {
+                    .img {
+                         width: 44px;
+
+                         img {
+                              width: 100%;
+                         }
+                    }
+
+                    .txt {
+                         h2 {
+                              font-size: 20px;
+                         }
+
+                         p {
+                              font-weight: 400;
+                              font-size: 15px;
+                              line-height: 26px;
+                         }
+                    }
+               }
+          }
+     }
+
+     // <!-- simple-way-to-book-your-flight -->
+     .booking-section {
+          padding: 50px 0;
+          background-image: url("");
+
+          .text-part {
+               width: 100%;
+
+               .title {
+                    h2 {
+                         font-weight: 600;
+                         font-size: 40px;
+                         line-height: 50px;
+                    }
+
+                    p {
+                         font-weight: 400;
+                         font-size: 16px;
+                         line-height: 28px;
+                    }
+               }
+          }
+
+          .image-part {
+               width: 100%;
+               margin-top: 30px;
+
+               img {
+                    width: 100%;
+               }
+          }
+     }
+
+     // <!-- newsletter-section -->
+     .newsletter-section {
+          padding: 30px 10px;
+          margin-top: 0px;
+
+          .newsletter-text {
+               h2 {
+                    font-size: 30px;
+                    line-height: 40px;
+
+                    @media only screen and (min-width:450px) {
+                         font-size: 35px;
+                         line-height: 45px;
+                    }
+               }
+
+               p {
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 25px;
+               }
+          }
+
+          .input-section {
+               width: 100%;
+               gap: 10px;
+
+               .input-txt {
+                    width: 65%;
+
+                    input {
+                         width: 100%;
+                    }
+               }
+
+               .btn-1 {
+                    width: 35%;
+
+                    button {
+                         font-weight: 500;
+                         font-size: 14px;
+                         line-height: 28px;
+                    }
+               }
+          }
+     }
+
+     // <!-- footer-section -->
+     .footer-section {
+          padding: 40px 0 0 0;
+          .footer-flex-section {
+               flex-direction: column;
+               padding-bottom: 20px;
+
+               .footer-flex {
+                    width: 100%;
+
+                    .title {
+                         h2 {
+
+                              font-weight: 600;
+                              font-size: 20px;
+                              line-height: 27px;
+                         }
+                    }
+
+                    .text {
+                         margin-top: 14px;
+
+                         .flex {
+                              .img {
+                                   width: 16px;
+
+                                   img {
+                                        width: 100%;
+                                   }
+                              }
+                         }
+
+                         .txt {
+                              p {
+                                   font-weight: 400;
+                                   font-size: 16px;
+                                   line-height: 34px;
+                              }
+                         }
+                    }
+
+                    .image-section {
+                         gap: 20px;
+
+                         .image {
+                              img {
+                                   width: 100%;
+                              }
+                         }
+                    }
+               }
+          }
+
+          .copy-right-section {
+               margin-top: 17px;
+
+               .flex-section {
+                    flex-direction: column;
+                    align-items: start;
+                    gap: 30px;
+
+                    .copy-right {
+                         margin-left: 0;
+
+                         p {
+                              font-weight: 400;
+                              font-size: 12px;
+                              line-height: 20px;
+                         }
+                    }
+
+                    .payment-section {
+                         margin-left: 0;
+                         flex-wrap: wrap;
+                         gap: 10px;
+
+                         .img {
+                              width: 55px;
+
+                              img {
+                                   width: 100%;
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+
+     // <!-- header-section -->
+     .header-section {
+          background: linear-gradient(112.04deg, #4184E9 14.01%, #19A8D1 89.83%);
+
+          .background {
+               background-image: url(images/header-bg.png);
+
+               &::after {
+                    width: 0px;
+                    height: 0px;
+               }
+
+               .navbar-1 {
+                    border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+                    position: relative;
+                    padding: 10px 0;
+
+                    &::after {
+                         display: none;
+                    }
+
+                    .navbar {
+                         height: auto;
+
+                         .navbar-toggler {
+                              border: 0;
+                              outline: 0;
+                              background-color: white;
+
+                              ion-icon {
+                                   font-size: 30px;
+                              }
+                         }
+
+                         .navbar-brand {
+                              width: 150px;
+
+                              img {
+                                   width: 100%;
+                              }
+                         }
+
+                         .navbar-nav {
+                              justify-content: center;
+                              align-items: center;
+
+                              .star-animation {
+                                   display: none;
+
+                              }
+
+                              .nav-item {
+
+                                   .nav-link {
+                                        font-size: 17px;
+                                        line-height: 22px;
+                                        height: auto;
+                                        align-items: start;
+                                        display: flex;
+                                        justify-content: start;
+                                        align-items: center;
+
+
+                                   }
+
+                                   &:nth-child(1) {
+                                        .nav-link {
+                                             color: rgb(255, 255, 255);
+                                        }
+
+                                        width: 65px;
+
+                                        &:hover~ {
+                                             .nav-link {
+                                                  color: rgb(255, 255, 255);
+                                             }
+
+                                             .star-animation {
+                                                  left: 0;
+                                             }
+                                        }
+                                   }
+
+                                   &:nth-child(2) {
+                                        width: 104px;
+
+                                        &:hover~ {
+                                             .nav-link {
+                                                  color: rgb(255, 255, 255);
+                                             }
+
+                                             .star-animation {
+                                                  left: 65px;
+                                                  width: 104px;
+                                             }
+                                        }
+                                   }
+
+                                   &:nth-child(3) {
+                                        width: 65px;
+
+                                        &:hover~ {
+                                             .nav-link {
+                                                  color: rgb(255, 255, 255);
+                                             }
+
+                                             .star-animation {
+                                                  left: 170px;
+                                                  width: 65px;
+                                             }
+                                        }
+                                   }
+
+                                   &:nth-child(4) {
+                                        width: 65px;
+
+                                        &:hover~ {
+                                             .nav-link {
+                                                  color: rgb(255, 255, 255);
+                                             }
+
+                                             .star-animation {
+                                                  left: 235px;
+                                                  width: 65px;
+                                             }
+                                        }
+                                   }
+
+                                   &:nth-child(5) {
+                                        width: 65px;
+
+                                        &:hover~ {
+                                             .nav-link {
+                                                  color: rgb(255, 255, 255);
+                                             }
+
+                                             .star-animation {
+                                                  left: 300px;
+                                                  width: 65px;
+                                             }
+                                        }
+                                   }
+
+                                   &:nth-child(6) {
+                                        width: 86px;
+
+                                        &:hover~ {
+                                             .nav-link {
+                                                  color: rgb(255, 255, 255);
+                                             }
+
+                                             .star-animation {
+                                                  left: 365px;
+                                                  width: 86px;
+                                             }
+                                        }
+                                   }
+
+
+
+
+                              }
+
+                              .nav-item-1 {
+                                   width: 100%;
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;
+                                   gap: 15px;
+                                   padding: 8px 0;
+
+                                   .nav-link-1 {
+                                        list-style-type: none;
+                                        text-decoration: none;
+                                        padding: 0 10px;
+
+                                        .img-1 {
+                                             img {
+                                                  width: 115px;
+                                             }
+                                        }
+
+                                        .img-2 {
+                                             img {
+                                                  width: 35px;
+                                             }
+                                        }
+                                   }
+
+                              }
+                         }
+
+                    }
+               }
+
+               .hero-section {
+                    .flex-section {
+                         flex-direction: column;
+                         margin-bottom: 300px;
+
+                         .text-section {
+                              width: 100%;
+                              padding: 20px 0 0 0;
+
+                              .txt {
+                                   width: 100%;
+
+                                   h2 {
+                                        font-size: 68px;
+                                        line-height: 70px;
+                                   }
+
+                                   p {
+                                        font-size: 16px;
+                                        font-weight: 400;
+                                        line-height: 26px;
+                                        width: 100%;
+                                        margin-top: 10px;
+                                   }
+
+                                   .button {
+                                        width: 160px;
+
+                                        button {
+                                             padding: 5px 0;
+                                             font-size: 16px;
+                                        }
+                                   }
+                              }
+                         }
+
+                         .image-section {
+                              width: 100%;
+
+                              .img {
+                                   img {
+                                        width: 100%;
+                                   }
+                              }
+                         }
+                    }
+               }
+
+          }
+     }
+
+     //<!-- book a trip -->
+     .book-a-trip {
+         padding: 30px 0 0 0;
+
+          .trip-section {
+               .title {
+                    h2 {
+                         font-family: 'poppins';
+                         font-style: normal;
+                         font-size: 32px;
+                         font-weight: 600;
+                         line-height: 48px;
+                         color: #121212;
+                         text-align: center;
+                    }
+
+
+               }
+
+               .info-section {
+                    background-image: url("");
+
+                    .title-btn {
+                         .button {
+                              width: 100%;
+                              flex-direction: column;
+
+                              .animate {
+                                   width: 200px;
+                                   height: 40px;
+                                   top: 0;
+                                   left: 50%;
+                                   transform: translateX(-50%);
+                                   -webkit-transform: translateX(-50%);
+                                   -moz-transform: translateX(-50%);
+                                   -ms-transform: translateX(-50%);
+                                   -o-transform: translateX(-50%);
+                              }
+
+                              li {
+                                   width: 200px;
+                                   height: 40px;
+                              }
+                         }
+
+                         ul li.active a {
+                              color: #fff;
+                         }
+
+                         ul li:nth-child(1).active~.animate {
+                              top: 0;
+                              left: 50%;
+                              transform: translateX(-50%);
+                              -webkit-transform: translateX(-50%);
+                              -moz-transform: translateX(-50%);
+                              -ms-transform: translateX(-50%);
+                              -o-transform: translateX(-50%);
+                         }
+
+                         ul li:nth-child(2).active~.animate {
+                              top: 65px;
+                              left: 50%;
+                              transform: translateX(-50%);
+                              -webkit-transform: translateX(-50%);
+                              -moz-transform: translateX(-50%);
+                              -ms-transform: translateX(-50%);
+                              -o-transform: translateX(-50%);
+                         }
+
+                         ul li:nth-child(3).active~.animate {
+                              top: 130px;
+                              left: 50%;
+                              transform: translateX(-50%);
+                              -webkit-transform: translateX(-50%);
+                              -moz-transform: translateX(-50%);
+                              -ms-transform: translateX(-50%);
+                              -o-transform: translateX(-50%);
+                         }
+                    }
+
+                    .first-part {
+                         width: 95%;
+                         margin: 30px auto 0 auto;
+                         align-items: start;
+
+                         .input {
+                              display: flex;
+                              justify-content: start;
+                              align-items: center;
+                              gap: 10px;
+
+
+                              input {
+                                   border: 1px solid #8d8d8d;
+                              }
+
+                              .form-check-label {
+                                   font-family: 'poppins';
+                                   font-style: normal;
+                                   font-size: 16px;
+                                   font-weight: 500;
+                                   line-height: 21px;
+                                   color: #555555;
+                                   text-align: center;
+                              }
+                         }
+                    }
+
+                    .second-part {
+                         flex-direction: column;
+
+                         margin-top: 30px;
+
+                         .input-txt {
+                              width: 100%;
+                              justify-content: start;
+
+                              input {
+                                   width: 100%;
+
+                                   ::placeholder {
+                                        color: #555555;
+                                   }
+                              }
+                         }
+
+                         .button {
+                              width: 48px;
+
+                              img {
+                                   width: 100%;
+                              }
+                         }
+                    }
+               }
+          }
+     }
+
+     // <!-- Destinations-section -->
+     .destinations-section {
+          padding: 30px 0 0 0;
+          background-image: url("");
+
+          .title {
+               h2 {
+                    font-size: 50px;
+                    line-height: 65px;
+                    text-align: start;
+
+                    @media only screen and (min-width:682px) {
+                         text-align: center;
+                    }
+               }
+
+               p {
+                    font-size: 16px;
+                    line-height: 26px;
+                    text-align: start;
+
+                    @media only screen and (min-width:682px) {
+                         text-align: center;
+                    }
+               }
+          }
+
+          .card-1 {
+               width: 95%;
+               margin: auto;
+          }
+     }
+
+     // <!-- Best Deals -->
+     .best-deals {
+          padding: 30px 0 0 0;
+          background-image: url("");
+
+          .flex-section {
+               flex-direction: column;
+
+               .img {
+                    width: 100%;
+
+                    img {
+                         width: 100%;
+                    }
+               }
+          }
+     }
+
+     // <!-- Plan your travel -->
+     .plan-your-travel {
+          padding: 40px 0 0 0 ;
+          background-image: url("");
+
+          .image {
+               width: 100%;
+
+               img {
+                    width: 100%;
+               }
+          }
+
+          .text-section {
+               width: 100%;
+               margin-top: 30px;
+
+               .title {
+                    h2 {
+                         font-size: 50px;
+                         line-height: 60px;
+                    }
+               }
+          }
+
+          .title-text {
+               margin-top: 20px;
+
+               .flex {
+                    .img {
+                         width: 44px;
+
+                         img {
+                              width: 100%;
+                         }
+                    }
+
+                    .txt {
+                         h2 {
+                              font-size: 20px;
+                         }
+
+                         p {
+                              font-weight: 400;
+                              font-size: 15px;
+                              line-height: 26px;
+                         }
+                    }
+               }
+          }
+     }
+
+     // <!-- simple-way-to-book-your-flight -->
+     .booking-section {
+          padding: 50px 0;
+          background-image: url("");
+
+          .text-part {
+               width: 100%;
+
+               .title {
+                    h2 {
+                         font-weight: 600;
+                         font-size: 55px;
+                         line-height: 75px;
+                    }
+
+                    p {
+                         font-weight: 400;
+                         font-size: 16px;
+                         line-height: 28px;
+                    }
+               }
+          }
+
+          .image-part {
+               width: 100%;
+               margin-top: 30px;
+
+               img {
+                    width: 100%;
+               }
+          }
+     }
+
+     // <!-- newsletter-section -->
+     .newsletter-section {
+          padding: 30px 10px;
+          margin-top: 0px;
+
+          .newsletter-text {
+               h2 {
+                    font-size: 30px;
+                    line-height: 40px;
+
+                    @media only screen and (min-width:450px) {
+                         font-size: 35px;
+                         line-height: 45px;
+                    }
+               }
+
+               p {
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 25px;
+               }
+          }
+
+          .input-section {
+               width: 100%;
+               gap: 10px;
+
+               .input-txt {
+                    width: 65%;
+
+                    input {
+                         width: 100%;
+                    }
+               }
+
+               .btn-1 {
+                    width: 35%;
+
+                    button {
+                         font-weight: 500;
+                         font-size: 14px;
+                         line-height: 28px;
+                    }
+               }
+          }
+     }
+
+     // <!-- footer-section -->
+     .footer-section {
+          padding: 40px 0 0 0;
+          .footer-flex-section {
+               flex-direction: column;
+               padding-bottom: 20px;
+
+               @media only screen and (min-width:600px) {
+                    flex-wrap: wrap;
+                    flex-direction: row;
+               }
+
+               .footer-flex {
+                    width: 100%;
+
+                    @media only screen and (min-width:600px) {
+                         width: 40%;
+                    }
+
+                    .title {
+                         h2 {
+
+                              font-weight: 600;
+                              font-size: 20px;
+                              line-height: 27px;
+                         }
+                    }
+
+                    .text {
+                         margin-top: 14px;
+
+                         .flex {
+                              .img {
+                                   width: 16px;
+
+                                   img {
+                                        width: 100%;
+                                   }
+                              }
+                         }
+
+                         .txt {
+                              p {
+                                   font-weight: 400;
+                                   font-size: 16px;
+                                   line-height: 34px;
+                              }
+                         }
+                    }
+
+                    .image-section {
+                         gap: 20px;
+
+                         .image {
+                              img {
+                                   width: 100%;
+                              }
+                         }
+                    }
+               }
+          }
+
+          .copy-right-section {
+               margin-top: 17px;
+
+               .flex-section {
+                    flex-direction: column;
+                    align-items: start;
+                    gap: 30px;
+
+                    @media only screen and (min-width:650px) {
+                         align-items: center;
+                    }
+
+                    .social-media-section {
+                         margin-right: 0;
+                    }
+
+                    .copy-right {
+                         margin-left: 0;
+
+                         p {
+                              font-weight: 400;
+                              font-size: 12px;
+                              line-height: 20px;
+                         }
+                    }
+
+                    .payment-section {
+                         margin-left: 0;
+                         flex-wrap: wrap;
+                         gap: 10px;
+
+                         .img {
+                              width: 55px;
+
+                              img {
+                                   width: 100%;
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+     body {
+          .container-fluid {
+               width: calc(100% - 60px);
+               margin: auto;
+
+          }
+
+     }
+
+     // <!-- header-section -->
+     .header-section {
+          background: linear-gradient(112.04deg, #4184E9 14.01%, #19A8D1 89.83%);
+
+          .background {
+               background-image: url(images/header-bg.png);
+
+               &::after {
+                    width: 0px;
+                    height: 0px;
+               }
+
+               .navbar-1 {
+                    border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+                    position: relative;
+                    padding: 10px 0;
+
+                    &::after {
+                         display: none;
+                    }
+
+                    .navbar {
+                         height: auto;
+
+                         .navbar-toggler {
+                              border: 0;
+                              outline: 0;
+                              background-color: white;
+
+                              ion-icon {
+                                   font-size: 30px;
+                              }
+                         }
+
+                         .navbar-brand {
+                              width: 150px;
+
+                              img {
+                                   width: 100%;
+                              }
+                         }
+
+                         .navbar-nav {
+                              justify-content: center;
+                              align-items: center;
+
+                              .star-animation {
+                                   display: none;
+
+                              }
+
+                              .nav-item {
+
+                                   .nav-link {
+                                        font-size: 17px;
+                                        line-height: 22px;
+                                        height: auto;
+                                        align-items: start;
+                                        display: flex;
+                                        justify-content: start;
+                                        align-items: center;
+
+
+                                   }
+
+                                   &:nth-child(1) {
+                                        .nav-link {
+                                             color: rgb(255, 255, 255);
+                                        }
+
+                                        width: 65px;
+
+                                        &:hover~ {
+                                             .nav-link {
+                                                  color: rgb(255, 255, 255);
+                                             }
+
+                                             .star-animation {
+                                                  left: 0;
+                                             }
+                                        }
+                                   }
+
+                                   &:nth-child(2) {
+                                        width: 104px;
+
+                                        &:hover~ {
+                                             .nav-link {
+                                                  color: rgb(255, 255, 255);
+                                             }
+
+                                             .star-animation {
+                                                  left: 65px;
+                                                  width: 104px;
+                                             }
+                                        }
+                                   }
+
+                                   &:nth-child(3) {
+                                        width: 65px;
+
+                                        &:hover~ {
+                                             .nav-link {
+                                                  color: rgb(255, 255, 255);
+                                             }
+
+                                             .star-animation {
+                                                  left: 170px;
+                                                  width: 65px;
+                                             }
+                                        }
+                                   }
+
+                                   &:nth-child(4) {
+                                        width: 65px;
+
+                                        &:hover~ {
+                                             .nav-link {
+                                                  color: rgb(255, 255, 255);
+                                             }
+
+                                             .star-animation {
+                                                  left: 235px;
+                                                  width: 65px;
+                                             }
+                                        }
+                                   }
+
+                                   &:nth-child(5) {
+                                        width: 65px;
+
+                                        &:hover~ {
+                                             .nav-link {
+                                                  color: rgb(255, 255, 255);
+                                             }
+
+                                             .star-animation {
+                                                  left: 300px;
+                                                  width: 65px;
+                                             }
+                                        }
+                                   }
+
+                                   &:nth-child(6) {
+                                        width: 86px;
+
+                                        &:hover~ {
+                                             .nav-link {
+                                                  color: rgb(255, 255, 255);
+                                             }
+
+                                             .star-animation {
+                                                  left: 365px;
+                                                  width: 86px;
+                                             }
+                                        }
+                                   }
+
+
+
+
+                              }
+
+                              .nav-item-1 {
+                                   width: 100%;
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;
+                                   gap: 15px;
+                                   padding: 8px 0;
+
+                                   .nav-link-1 {
+                                        list-style-type: none;
+                                        text-decoration: none;
+                                        padding: 0 10px;
+
+                                        .img-1 {
+                                             img {
+                                                  width: 115px;
+                                             }
+                                        }
+
+                                        .img-2 {
+                                             img {
+                                                  width: 35px;
+                                             }
+                                        }
+                                   }
+
+                              }
+                         }
+
+                    }
+               }
+
+               .hero-section {
+                    .flex-section {
+                         margin-top: 50px;
+                         margin-bottom: 140px;
+
+                         .text-section {
+                              width: 100%;
+
+                              .txt {
+                                   width: 100%;
+
+                                   h2 {
+                                        font-size: 45px;
+                                        line-height: 50px;
+                                   }
+
+                                   p {
+                                        font-size: 15px;
+                                        font-weight: 400;
+                                        line-height: 26px;
+                                        width: 100%;
+                                        margin-top: 10px;
+                                   }
+
+                                   .button {
+                                        width: 160px;
+
+                                        button {
+                                             padding: 5px 0;
+                                             font-size: 16px;
+                                        }
+                                   }
+                              }
+                         }
+
+                         .image-section {
+                              width: 100%;
+
+                              .img {
+                                   img {
+                                        width: 100%;
+                                   }
+                              }
+                         }
+                    }
+               }
+
+          }
+     }
+
+     //<!-- book a trip -->
+     .book-a-trip {
+          padding: 30px 0 0 0;
+          .trip-section {
+               background-image: url("");
+
+               .title {
+                    h2 {
+                         font-family: 'poppins';
+                         font-style: normal;
+                         font-size: 32px;
+                         font-weight: 600;
+                         line-height: 48px;
+                         color: #121212;
+                         text-align: center;
+                    }
+               }
+
+               .info-section {
+                    .first-part {
+                         width: 95%;
+                         margin: 30px auto 0 auto;
+                         align-items: start;
+
+                         .input {
+                              display: flex;
+                              justify-content: start;
+                              align-items: center;
+                              gap: 10px;
+
+
+                              input {
+                                   border: 1px solid #8d8d8d;
+                              }
+
+                              .form-check-label {
+                                   font-family: 'poppins';
+                                   font-style: normal;
+                                   font-size: 16px;
+                                   font-weight: 500;
+                                   line-height: 21px;
+                                   color: #555555;
+                                   text-align: center;
+                              }
+                         }
+                    }
+
+                    .second-part {
+                         margin-top: 30px;
+                         flex-wrap: wrap;
+
+                         .input-txt {
+                              width: 220px;
+
+                              input {
+                                   width: 100%;
+
+                                   ::placeholder {
+                                        color: #555555;
+                                   }
+                              }
+                         }
+
+                         .button {
+                              width: 48px;
+
+                              img {
+                                   width: 100%;
+                              }
+                         }
+                    }
+               }
+          }
+     }
+
+     // <!-- Destinations-section -->
+     .destinations-section {
+          background-image: url("");
+          padding: 50px 0 0 0;
+
+          .title {
+               h2 {
+                    font-size: 50px;
+                    line-height: 65px;
+                    text-align: center;
+               }
+
+               p {
+                    font-size: 16px;
+                    line-height: 26px;
+                    text-align: center;
+               }
+          }
+
+          .card-1 {
+               width: 95%;
+               margin: auto;
+          }
+     }
+
+     // <!-- Best Deals -->
+     .best-deals {
+          background-image: url("");
+          padding: 60px 0 0 0;
+
+          .flex-section {
+               .img {
+                    width: 34%;
+
+                    img {
+                         width: 100%;
+                    }
+               }
+          }
+     }
+
+     // <!-- Plan your travel -->
+     .plan-your-travel {
+          position: static;
+          background-image: url("");
+          padding: 80px 0 0 0;
+
+          .image {
+               width: 100%;
+               position: sticky;
+               top: 15px;
+
+               img {
+                    width: 100%;
+
+               }
+          }
+
+          .text-section {
+               position: sticky;
+               width: 100%;
+
+               .title {
+                    h2 {
+                         font-size: 40px;
+                         line-height: 60px;
+                    }
+               }
+          }
+
+          .title-text {
+               margin-top: 20px;
+
+               .flex {
+                    .img {
+                         width: 44px;
+
+                         img {
+                              width: 100%;
+                         }
+                    }
+
+                    .txt {
+                         h2 {
+                              font-size: 20px;
+                         }
+
+                         p {
+                              font-weight: 400;
+                              font-size: 15px;
+                              line-height: 26px;
+                         }
+                    }
+               }
+          }
+
+     }
+
+     // <!-- simple-way-to-book-your-flight -->
+     .booking-section {
+          background-image: url("");
+
+          .text-part {
+               width: 100%;
+
+               .title {
+                    h2 {
+                         font-weight: 600;
+                         font-size: 45px;
+                         line-height: 75px;
+                    }
+
+                    p {
+                         font-weight: 400;
+                         font-size: 16px;
+                         line-height: 28px;
+                    }
+               }
+          }
+
+          .image-part {
+               width: 100%;
+               position: sticky;
+               top: 0;
+
+               img {
+                    width: 100%;
+               }
+          }
+
+     }
+
+     // <!-- newsletter-section -->
+     .newsletter-section {
+          padding: 50px 50px;
+          margin-top: 0px;
+
+          .newsletter-text {
+               h2 {
+                    font-size: 40px;
+                    line-height: 60px;
+               }
+
+               p {
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 25px;
+               }
+          }
+
+          .input-section {
+               width: 100%;
+               gap: 10px;
+
+               .input-txt {
+                    width: 65%;
+
+                    input {
+                         width: 100%;
+                    }
+               }
+
+               .btn-1 {
+                    width: 35%;
+
+                    button {
+                         font-weight: 500;
+                         font-size: 14px;
+                         line-height: 28px;
+                    }
+               }
+          }
+     }
+
+     // <!-- footer-section -->
+     .footer-section {
+
+          .footer-flex-section {
+               flex-wrap: wrap;
+               padding-bottom: 20px;
+
+               .footer-flex {
+                    width: 30%;
+
+                    .title {
+                         h2 {
+
+                              font-weight: 600;
+                              font-size: 20px;
+                              line-height: 27px;
+                         }
+                    }
+
+                    .text {
+                         margin-top: 14px;
+
+                         .flex {
+                              .img {
+                                   width: 16px;
+
+                                   img {
+                                        width: 100%;
+                                   }
+                              }
+                         }
+
+                         .txt {
+                              p {
+                                   font-weight: 400;
+                                   font-size: 16px;
+                                   line-height: 34px;
+                              }
+                         }
+                    }
+
+                    .image-section {
+                         gap: 20px;
+
+                         .image {
+                              img {
+                                   width: 100%;
+                              }
+                         }
+                    }
+               }
+          }
+
+          .copy-right-section {
+               margin-top: 17px;
+
+               .flex-section {
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 30px;
+
+                    .social-media-section {
+                         margin-right: 0;
+                    }
+
+                    .copy-right {
+                         margin-left: 0;
+
+                         p {
+                              font-weight: 400;
+                              font-size: 12px;
+                              line-height: 20px;
+                         }
+                    }
+
+                    .payment-section {
+                         margin-left: 0;
+                         flex-wrap: wrap;
+                         gap: 10px;
+
+                         .img {
+                              width: 55px;
+
+                              img {
+                                   width: 100%;
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+     body {
+          .container-fluid {
+               width: calc(100% - 60px);
+               margin: auto;
+
+          }
+
+     }
+     // <!-- header-section -->
+     .header-section {
+          .background {
+               &::after {
+                    bottom: -65px;
+                    right: -605px;
+               }
+
+               .navbar-1 {
+
+                    &::after {
+                         width: 125px;
+                         height: 230px;
+                         top: 0;
+                         right: -60px;
+                    }
+               }
+
+               .hero-section {
+                    .flex-section {
+                         margin-top: 90px;
+                         margin-bottom: 180px;
+                         position: relative;
+                    }
+               }
+
+          }
+     }
+
+     //<!-- book a trip -->
+     .book-a-trip {
+          
+          .trip-section {
+               .info-section {
+                    .second-part {
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         gap: 10px;
+                         margin-top: 20px;
+
+                         .input-txt {
+                              width: 220px;
+
+                              input {
+                                   width: 100px;
+                              }
+                         }
+
+                         .button {
+                              width: 48px;
+
+                              img {
+                                   width: 100%;
+                              }
+                         }
+                    }
+               }
+          }
+     }
+
+     // <!-- Plan your travel -->
+     .plan-your-travel {
+          margin-top: 110px;
+          background-image: url("");
+          padding: 0;
+
+          .col-md-6 {
+               padding: 0;
+          }
+
+          gap: 5px;
+
+          .image {
+               width: 100%;
+               position: sticky;
+               top: 15px;
+
+               img {
+                    width: 100%;
+               }
+          }
+
+     }
+     // <!-- footer-section -->
+.footer-section {
+     .footer-flex-section {
+          gap: 15px;
+          padding-bottom: 68px;
+          @media only screen and (min-width:1035px) {
+               gap: 25px;
+          }
+
+          .footer-flex {
+               width: 25%;
+
+               .title {
+                    h2 {
+                         font-size: 17px;
+                         line-height: 27px;
+                         @media only screen and (min-width:1030px) {
+                              font-size: 18px;
+                         }
+                    }
+               }
+
+               .text {
+                    margin-top: 14px;
+
+                    ul {
+                         li {
+                              a {
+                                   font-size: 11.5px;
+                                   @media only screen and (min-width:1060px) {
+                                        font-size: 12px;
+                                   }
+                                   @media only screen and (min-width:1130px) {
+                                        font-size: 13px;
+                                   }
+                                   
+                              }
+                              .img {
+                                   margin-top: -2px;
+
+                                   img {
+                                        width: 12px;
+                                   }
+                              }
+                         }
+                    }
+
+               }
+          }
+     }
+
+     .copy-right-section {
+          margin-top: 17px;
+
+          .flex-section {
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+
+               .social-media-section {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 8px;
+                    margin-right: auto;
+
+                    .social-icon {
+                         width: 42px;
+                         height: 42px;
+                         background-color: #1D71B8;
+                         border-radius: 50%;
+                         -webkit-border-radius: 50%;
+                         -moz-border-radius: 50%;
+                         -ms-border-radius: 50%;
+                         -o-border-radius: 50%;
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+
+                         img {
+                              width: 16px;
+                              margin: auto;
+                         }
+                    }
+               }
+
+               .copy-right {
+                    margin-left: auto;
+
+                    p {
+                         font-family: 'Poppins';
+                         font-style: normal;
+                         font-weight: 400;
+                         font-size: 13px;
+                         line-height: 20px;
+                         letter-spacing: 0.02em;
+                         color: #666666;
+                         margin-bottom: 0%;
+                    }
+               }
+
+               .payment-section {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 8px;
+                    margin-left: auto;
+
+                    .img {
+                         width: 55px;
+
+                         img {
+                              width: 100%;
+                         }
+                    }
+               }
+          }
+     }
+}
+}
+
+@media only screen and (min-width:1366px) {
+
+     // <!-- header-section -->
+     .header-section {
+          .background {
+               &::after {
+                    bottom: -25px;
+                    right: -520px;
+                    width: 1200px;
+                    height: 1200px;
+               }
+               @media only screen and (min-width:1430px) {
+                    &::after {
+                         bottom: -25px;
+                         right: -520px;
+                         width: 1200px;
+                         height: 1200px;
+                    }
+               }
+
+               .hero-section {
+                    overflow: hidden;
+
+                    .flex-section {
+                         .text-section {
+                              width: 50%;
+
+                              .txt {
+                                   width: 447px;
+
+                                   h2 {
+                                        font-family: 'poppins';
+                                        font-style: normal;
+                                        font-size: 68px;
+                                        font-weight: 700;
+                                        line-height: 76px;
+                                        color: rgb(255, 255, 255);
+
+                                        span {
+                                             font-weight: 400;
+                                        }
+                                   }
+
+                                   p {
+                                        font-family: 'poppins';
+                                        font-style: normal;
+                                        font-size: 16px;
+                                        font-weight: 400;
+                                        line-height: 26px;
+                                        color: rgb(255, 255, 255);
+                                        width: 445px;
+                                   }
+
+                                   .button {
+                                        width: 160px;
+
+                                        button {
+                                             width: 100%;
+                                             height: 45px;
+                                             color: #589CC3;
+                                             font-family: 'poppins';
+                                             font-style: normal;
+                                             font-size: 14px;
+                                             font-weight: 500;
+                                             line-height: 26px;
+                                             letter-spacing: 0.03em;
+                                             border: 0;
+                                             outline: 0;
+                                             border-radius: 30px;
+                                             -webkit-border-radius: 30px;
+                                             -moz-border-radius: 30px;
+                                             -ms-border-radius: 30px;
+                                             -o-border-radius: 30px;
+                                             padding: 10px 0;
+                                        }
+                                   }
+                              }
+                         }
+
+                         .image-section {
+                              width: 50%;
+
+                              .img {
+                                   img {
+                                        width: 100%;
+                                   }
+                              }
+                         }
+                    }
+               }
+
+          }
+     }
+
+     //<!-- book a trip -->
+     .book-a-trip {
+          margin-top: 10px;
+          .trip-section {
+               .info-section {
+                    .title-btn {
+                         ul li.active a {
+                              color: #fff;
+                         }
+
+                         ul li:nth-child(1).active~.animate {
+                              left: 5px;
+                         }
+
+                         ul li:nth-child(2).active~.animate {
+                              left: 190px;
+                         }
+
+                         ul li:nth-child(3).active~.animate {
+                              left: 375px;
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@media only screen and (min-width:1566px) {
+     // <!-- header-section -->
+     .header-section {
+          .background {
+               &::after {
+                    bottom: 15px;
+                    right: -530px;
+                    width: 1230px;
+                    height: 1270px;
+               }
+
+               @media only screen and (min-width:1630px) {
+                    &::after {
+                         bottom: 15px;
+                         right: -530px;
+                         width: 1230px;
+                         height: 1270px;
+                    }
+               }
+
+               @media only screen and (min-width:1730px) {
+                    &::after {
+                         bottom: 25px;
+                         right: -510px;
+                         width: 1230px;
+                         height: 1400px;
+                    }
+               }
+
+               @media only screen and (min-width:1800px) {
+                    &::after {
+                         bottom: 25px;
+                         right: -510px;
+                         width: 1230px;
+                         height: 1400px;
+                    }
+               }
+
+               @media only screen and (min-width:1830px) {
+                    &::after {
+                         bottom: 25px;
+                         right: -510px;
+                         width: 1230px;
+                         height: 1400px;
+                    }
+               }
+
+               @media only screen and (min-width:1900px) {
+                    &::after {
+                         bottom: 25px;
+                         right: -510px;
+                         width: 1230px;
+                         height: 1400px;
+                    }
+               }
+
+               @media only screen and (min-width:1930px) {
+                    &::after {
+                         bottom: 25px;
+                         right: -510px;
+                         width: 1230px;
+                         height: 1400px;
+                    }
+               }
+          }
+     }
+
+}
+@media only screen and (min-width:2030px) {
+
+     // <!-- header-section -->
+     .header-section {
+          .background {
+               &::after {
+                    bottom: 25px;
+                    right: -575px;
+                    width: 1350px;
+                    height: 1650px;
+               }
+
+                @media only screen and (min-width:2230px) {
+                    &::after {
+                         bottom: 25px;
+                    right: -690px;
+                    width: 1585px;
+                    height: 1900px;
+                    }
+               }
+               @media only screen and (min-width:2430px) {
+                    &::after {
+                         bottom: 25px;
+                         right: -690px;
+                         width: 1650px;
+                         height: 1900px;
+                    }
+               }
+               @media only screen and (min-width:2630px) {
+                    &::after {
+                         bottom: 25px;
+                    right: -690px;
+                    width: 1650px;
+                    height: 1900px;
+                    }
+               }
+          }
+     }
+}

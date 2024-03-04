@@ -1,0 +1,3397 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-moz-selection {
+  background-color: #ec0033;
+  color: #fff;
+  opacity: 1;
+  -webkit-text-fill-color: #fff;
+}
+
+::selection {
+  background-color: #ec0033;
+  color: #fff;
+  opacity: 1;
+  -webkit-text-fill-color: #fff;
+}
+
+@media only screen and (min-width: 1200px) {
+  body .container-fluid {
+    width: calc(100% - 160px);
+    margin: auto;
+  }
+  body .col-md-10 {
+    width: calc(100% - 220px);
+    margin: auto;
+  }
+}
+.header-section {
+  background: linear-gradient(112.04deg, #4184E9 14.01%, #19A8D1 89.83%);
+  overflow: hidden;
+}
+.header-section .background {
+  background-image: url(images/header-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.header-section .background::after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  right: -540px;
+  width: 1130px;
+  height: 1100px;
+  background-image: url(images/Vector.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -10;
+  overflow: hidden;
+}
+.header-section .background .navbar-1 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+.header-section .background .navbar-1 .container-fluid {
+  width: 100%;
+  margin: auto;
+}
+.header-section .background .navbar-1::after {
+  content: "";
+  position: absolute;
+  width: 125px;
+  height: 200px;
+  top: 0;
+  right: -95px;
+  background-image: url(images/group\ new.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-section .background .navbar-1 .navbar {
+  padding: 0;
+  height: 104px;
+}
+.header-section .background .navbar-1 .navbar .navbar-brand {
+  width: 210px;
+}
+.header-section .background .navbar-1 .navbar .navbar-brand img {
+  width: 100%;
+}
+.header-section .background .navbar-1 .navbar .star-navbar {
+  position: relative;
+}
+.header-section .background .navbar-1 .navbar .navbar-nav .star-animation {
+  content: "";
+  position: absolute;
+  width: 65px;
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+  bottom: 0;
+  left: 0;
+}
+.header-section .background .navbar-1 .navbar .navbar-nav .nav-item .nav-link {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  height: 104px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(1) {
+  width: 65px;
+}
+.header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(1) .nav-link {
+  color: rgb(255, 255, 255);
+}
+.header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(1):hover ~ .nav-link {
+  color: rgb(255, 255, 255);
+}
+.header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(1):hover ~ .star-animation {
+  left: 0;
+}
+.header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(2) {
+  width: 104px;
+}
+.header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(2):hover ~ .nav-link {
+  color: rgb(255, 255, 255);
+}
+.header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(2):hover ~ .star-animation {
+  left: 65px;
+  width: 104px;
+}
+.header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(3) {
+  width: 65px;
+}
+.header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(3):hover ~ .nav-link {
+  color: rgb(255, 255, 255);
+}
+.header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(3):hover ~ .star-animation {
+  left: 170px;
+  width: 65px;
+}
+.header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(4) {
+  width: 65px;
+}
+.header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(4):hover ~ .nav-link {
+  color: rgb(255, 255, 255);
+}
+.header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(4):hover ~ .star-animation {
+  left: 235px;
+  width: 65px;
+}
+.header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(5) {
+  width: 65px;
+}
+.header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(5):hover ~ .nav-link {
+  color: rgb(255, 255, 255);
+}
+.header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(5):hover ~ .star-animation {
+  left: 300px;
+  width: 65px;
+}
+.header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(6) {
+  width: 86px;
+}
+.header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(6):hover ~ .nav-link {
+  color: rgb(255, 255, 255);
+}
+.header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(6):hover ~ .star-animation {
+  left: 365px;
+  width: 86px;
+}
+.header-section .background .navbar-1 .navbar .navbar-nav .nav-item-1 {
+  width: 100%;
+}
+.header-section .background .navbar-1 .navbar .navbar-nav .nav-item-1 .nav-link-1 {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0 10px;
+}
+.header-section .background .navbar-1 .navbar .navbar-nav .nav-item-1 .nav-link-1 .img-1 {
+  width: 95px;
+}
+.header-section .background .navbar-1 .navbar .navbar-nav .nav-item-1 .nav-link-1 .img-2 {
+  width: 22px;
+}
+.header-section .background .hero-section {
+  overflow: hidden;
+}
+.header-section .background .hero-section .flex-section {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin-bottom: 200px;
+  position: relative;
+}
+@media only screen and (max-width: 767px) {
+  .header-section .background .hero-section .flex-section {
+    gap: 25px;
+  }
+}
+.header-section .background .hero-section .flex-section .text-section {
+  width: 50%;
+  padding: 70px 0 0 0;
+}
+.header-section .background .hero-section .flex-section .text-section .txt {
+  width: 447px;
+}
+.header-section .background .hero-section .flex-section .text-section .txt h2 {
+  font-family: "poppins";
+  font-style: normal;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 0;
+}
+.header-section .background .hero-section .flex-section .text-section .txt h2 span {
+  font-weight: 400;
+}
+.header-section .background .hero-section .flex-section .text-section .txt p {
+  font-family: "poppins";
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgb(255, 255, 255);
+  width: 445px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+.header-section .background .hero-section .flex-section .text-section .txt .button {
+  width: 160px;
+  margin-top: 24px;
+}
+.header-section .background .hero-section .flex-section .text-section .txt .button button {
+  width: 100%;
+  height: 45px;
+  color: #589CC3;
+  background-color: white;
+  font-family: "poppins";
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  border: 0;
+  outline: 0;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  padding: 10px 0;
+}
+.header-section .background .hero-section .flex-section .image-section {
+  width: 50%;
+}
+.header-section .background .hero-section .flex-section .image-section .img img {
+  width: 100%;
+}
+
+.book-a-trip .active-card {
+  display: none;
+}
+.book-a-trip .trip-section .title h2 {
+  font-family: "poppins";
+  font-style: normal;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  color: #121212;
+  text-align: center;
+}
+.book-a-trip .trip-section .info-section {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  background-image: url(./images/book-trip.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  padding: 27px 20px;
+  border: 1px solid #F3F3F3;
+  border-radius: 15px;
+  box-shadow: 0px 5px 50px -15px #888888;
+}
+.book-a-trip .trip-section .info-section .title-btn .button {
+  width: 540px;
+  margin: auto auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  position: relative;
+  gap: 25px;
+  padding: 0;
+  background-color: #EFF4F4;
+  height: auto;
+}
+@media only screen and (min-width: 768px) {
+  .book-a-trip .trip-section .info-section .title-btn .button {
+    height: 65px;
+  }
+}
+.book-a-trip .trip-section .info-section .title-btn .button .animate {
+  content: "";
+  position: absolute;
+  width: 160px;
+  height: 50px;
+  background-color: #1D71B8;
+  left: 185px;
+  top: 0;
+  transition: 0.3s linear;
+  z-index: 1;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+@media only screen and (min-width: 768px) {
+  .book-a-trip .trip-section .info-section .title-btn .button .animate {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+.book-a-trip .trip-section .info-section .title-btn .button li {
+  width: 160px;
+  border: 0;
+  outline: 0;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  position: relative;
+  background: transparent;
+  height: 40px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.book-a-trip .trip-section .info-section .title-btn .button li a {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "poppins";
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #121212;
+  text-align: center;
+  letter-spacing: 0.003em;
+  width: 160px;
+  position: relative;
+  transition: 0.4s linear;
+  z-index: 2;
+}
+.book-a-trip .trip-section .info-section .title-btn ul li.active a {
+  color: #fff;
+}
+.book-a-trip .trip-section .info-section .title-btn ul li:nth-child(1).active ~ .animate {
+  left: 10px;
+}
+.book-a-trip .trip-section .info-section .title-btn ul li:nth-child(2).active ~ .animate {
+  left: 185px;
+}
+.book-a-trip .trip-section .info-section .title-btn ul li:nth-child(3).active ~ .animate {
+  left: 370px;
+}
+.book-a-trip .trip-section .info-section .first-part {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  margin-top: 25px;
+}
+.book-a-trip .trip-section .info-section .first-part .input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.book-a-trip .trip-section .info-section .first-part .input input {
+  border: 1px solid #8d8d8d;
+  font-size: 20px;
+  margin-top: 0;
+}
+.book-a-trip .trip-section .info-section .first-part .input .form-check-label {
+  font-family: "poppins";
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #555555;
+  text-align: center;
+}
+.book-a-trip .trip-section .info-section .first-part .input .form-check-input:checked[type=radio] {
+  background-color: #1D71B8;
+  --bs-form-check-bg-image: url(./images/Ellipse\ 173.svg);
+  font-size: 20px;
+  border: 1px solid #8d8d8d;
+  padding: 1px;
+}
+.book-a-trip .trip-section .info-section .second-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 25px;
+  width: 100%;
+}
+.book-a-trip .trip-section .info-section .second-part .input-txt {
+  width: 240px;
+  height: 50px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+  padding: 5px 10px;
+  border: 1px solid #E6E6E6;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+@media only screen and (min-width: 768px) {
+  .book-a-trip .trip-section .info-section .second-part .input-txt {
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .book-a-trip .trip-section .info-section .second-part .input-txt {
+    width: 256px;
+  }
+}
+.book-a-trip .trip-section .info-section .second-part .input-txt input {
+  border: 0;
+  outline: 0;
+  font-family: "poppins";
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #555555;
+  width: 100%;
+}
+.book-a-trip .trip-section .info-section .second-part .input-txt input ::-moz-placeholder {
+  color: #555555;
+}
+.book-a-trip .trip-section .info-section .second-part .input-txt input ::placeholder {
+  color: #555555;
+}
+.book-a-trip .trip-section .info-section .second-part .button {
+  width: 48px;
+}
+.book-a-trip .trip-section .info-section .second-part .button img {
+  width: 100%;
+}
+
+.destinations-section {
+  overflow: hidden;
+  background-image: url(./images/explore-bg.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 80px 0;
+  position: relative;
+  z-index: 1;
+}
+.destinations-section::after {
+  content: "";
+  position: absolute;
+  width: 1000px;
+  height: 320px;
+  bottom: 5%;
+  right: -20%;
+  z-index: -1;
+  background-color: #F4FAFF;
+  border-radius: 26px;
+  -webkit-border-radius: 26px;
+  -moz-border-radius: 26px;
+  -ms-border-radius: 26px;
+  -o-border-radius: 26px;
+}
+@media only screen and (min-width: 1200px) {
+  .destinations-section .width-sec {
+    width: calc(100% - 22px);
+  }
+}
+.destinations-section .title {
+  margin-bottom: 40px;
+}
+.destinations-section .title h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #121212;
+  text-align: center;
+}
+.destinations-section .title p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #999999;
+  text-align: center;
+  margin-bottom: 0;
+}
+.destinations-section .card-1 {
+  padding: 9px;
+  background-color: #F3F3F3;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.destinations-section .card-1 .img img {
+  width: 100%;
+}
+.destinations-section .card-1 .txt .title-txt h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+  text-align: start;
+}
+.destinations-section .card-1 .txt .title-txt p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #bbbbbb;
+  text-align: start;
+}
+.destinations-section .card-1 .txt .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.destinations-section .card-1 .txt .flex img {
+  width: 62px;
+}
+.destinations-section .card-1 .txt .flex .text h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #121212;
+  text-align: start;
+}
+.destinations-section .slick-slider-dots {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  display: flex;
+  width: 90%;
+  height: 25px;
+}
+.destinations-section .slick-slider-dots ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+  height: 25px;
+  width: 100%;
+  max-width: 130px;
+  margin: auto;
+}
+.destinations-section .slick-slider-dots ul li {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.destinations-section .slick-slider-dots ul li button {
+  background: rgba(29, 113, 184, 0.3);
+  height: 10px;
+  width: 10px;
+  overflow: hidden;
+  color: black;
+  border: none;
+  transition: 0.1s linear;
+  -webkit-transition: 0.1s linear;
+  -moz-transition: 0.1s linear;
+  -ms-transition: 0.1s linear;
+  -o-transition: 0.1s linear;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.destinations-section .slick-slider-dots ul li button::before {
+  display: none;
+}
+.destinations-section .slick-slider-dots ul li.slick-active button {
+  background: #1D71B8;
+  height: 10px;
+  width: 30px;
+}
+
+.best-deals {
+  overflow: hidden;
+  background-image: url(./images/best-deal-bg.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 70px 0;
+}
+.best-deals .title h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #121212;
+  text-align: center;
+}
+.best-deals .title p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #999999;
+  text-align: center;
+}
+.best-deals .flex-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+.best-deals .flex-section .img {
+  width: 34%;
+}
+.best-deals .flex-section .img img {
+  width: 100%;
+}
+.best-deals .button {
+  width: 180px;
+  margin: 40px auto 0 auto;
+}
+.best-deals .button button {
+  font-family: "poppins";
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.003em;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  position: relative;
+  background-color: #1D71B8;
+  height: 50px;
+}
+
+.plan-your-travel {
+  background-image: url(./images/travel-bg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 0 100px 0;
+  gap: 5px;
+}
+@media only screen and (min-width: 768px) {
+  .plan-your-travel .col-md-6 {
+    padding: 0;
+  }
+}
+.plan-your-travel .image {
+  width: 100%;
+}
+.plan-your-travel .image img {
+  width: 100%;
+}
+.plan-your-travel .text-section {
+  width: 100%;
+}
+@media only screen and (min-width: 1200px) {
+  .plan-your-travel .text-section {
+    padding-left: 80px;
+  }
+}
+.plan-your-travel .text-section .title h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #121212;
+  width: 100%;
+  max-width: 416px;
+}
+.plan-your-travel .title-text {
+  margin-top: 20px;
+}
+.plan-your-travel .title-text .flex {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+}
+.plan-your-travel .title-text .flex .img {
+  width: 44px;
+}
+.plan-your-travel .title-text .flex .img img {
+  width: 100%;
+}
+.plan-your-travel .title-text .flex .img-1 {
+  width: 52px;
+}
+.plan-your-travel .title-text .flex .img-1 img {
+  width: 100%;
+}
+.plan-your-travel .title-text .flex .txt {
+  width: 100%;
+}
+.plan-your-travel .title-text .flex .txt h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #121212;
+}
+.plan-your-travel .title-text .flex .txt p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.5px;
+  line-height: 26px;
+  color: #999999;
+  width: 100%;
+  max-width: 566px;
+}
+
+.booking-section {
+  background-color: #F4FAFF;
+  background-image: url(./images/flight-bg.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 100px 90px 100px;
+}
+.booking-section .text-part {
+  width: 100%;
+}
+@media only screen and (min-width: 1200px) {
+  .booking-section .text-part {
+    padding-right: 90px;
+  }
+}
+.booking-section .text-part .title h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #1D71B8;
+}
+.booking-section .text-part .title h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 60px;
+  color: #121212;
+  width: 100%;
+  max-width: 403px;
+}
+@media only screen and (min-width: 1320px) {
+  .booking-section .text-part .title h2 {
+    font-size: 36px;
+  }
+}
+@media only screen and (min-width: 1395px) {
+  .booking-section .text-part .title h2 {
+    font-size: 40px;
+  }
+}
+.booking-section .text-part .title p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  width: 100%;
+  max-width: 472px;
+  color: #555555;
+}
+.booking-section .text-part .flex {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+.booking-section .text-part .flex .img-1 {
+  width: 50%;
+  max-width: 200px;
+}
+.booking-section .text-part .flex .img-1 img {
+  width: 100%;
+}
+.booking-section .image-part {
+  width: 100%;
+}
+.booking-section .image-part img {
+  width: 100%;
+}
+
+.newsletter-section {
+  background-image: url(images/newslater-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 90px 90px;
+  margin-top: 0px;
+  overflow: hidden;
+}
+.newsletter-section .newsletter-text {
+  width: 100%;
+  max-width: 630px;
+  margin: auto;
+}
+.newsletter-section .newsletter-text h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0.1em;
+  color: #fff;
+  text-align: center;
+}
+.newsletter-section .newsletter-text h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  color: #fff;
+  text-align: center;
+}
+.newsletter-section .newsletter-text p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  text-align: center;
+}
+.newsletter-section .input-section {
+  width: 520px;
+  max-width: 520px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 35px auto 0 auto;
+  padding: 6px 6px;
+  background-color: white;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.newsletter-section .input-section .input-txt {
+  width: 70%;
+  max-width: 385px;
+}
+.newsletter-section .input-section .input-txt input {
+  border: 0;
+  outline: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: #AAAAAA;
+  padding: 0 0 0 10px;
+  width: 100%;
+}
+.newsletter-section .input-section .input-txt input::-moz-placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  color: #AAAAAA;
+}
+.newsletter-section .input-section .input-txt input::placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  color: #AAAAAA;
+}
+.newsletter-section .input-section .btn-1 {
+  width: 30%;
+  max-width: 135px;
+}
+.newsletter-section .input-section .btn-1 button {
+  width: 100%;
+  background-color: #1D71B8;
+  border: 0;
+  outline: 0;
+  height: 45px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  color: #fff;
+  line-height: 0.05em;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.footer-section {
+  overflow: hidden;
+  padding: 70px 0 17px 0;
+}
+.footer-section .footer-nav {
+  border-bottom: 1px solid #ECECEC;
+}
+.footer-section .footer-flex-section {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+  gap: 25px;
+  padding-bottom: 68px;
+}
+.footer-section .footer-flex-section .footer-flex {
+  width: 25%;
+}
+.footer-section .footer-flex-section .footer-flex .title h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  color: #121212;
+}
+.footer-section .footer-flex-section .footer-flex .text {
+  margin-top: 14px;
+}
+.footer-section .footer-flex-section .footer-flex .text ul {
+  padding: 0;
+  list-style: none;
+}
+.footer-section .footer-flex-section .footer-flex .text ul li {
+  list-style: none;
+}
+.footer-section .footer-flex-section .footer-flex .text ul li ul {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 8px;
+}
+.footer-section .footer-flex-section .footer-flex .text ul li a {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 34px;
+  letter-spacing: 0.02em;
+  color: #666666;
+  margin-bottom: 0;
+}
+@media only screen and (min-width: 1366px) {
+  .footer-section .footer-flex-section .footer-flex .text ul li a {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .footer-section .footer-flex-section .footer-flex .text ul li a {
+    font-size: 16px;
+  }
+}
+.footer-section .footer-flex-section .footer-flex .text ul li .img {
+  margin-top: -6px;
+}
+.footer-section .footer-flex-section .footer-flex .text ul li .img img {
+  width: 12px;
+}
+.footer-section .footer-flex-section .footer-flex .image-section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 18px;
+  margin-top: 28px;
+}
+.footer-section .footer-flex-section .footer-flex .image-section .image img {
+  width: 100%;
+}
+.footer-section .copy-right-section {
+  margin-top: 17px;
+}
+.footer-section .copy-right-section .flex-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-section .copy-right-section .flex-section .social-media-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-right: auto;
+}
+.footer-section .copy-right-section .flex-section .social-media-section .social-icon {
+  width: 42px;
+  height: 42px;
+  background-color: #1D71B8;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-section .copy-right-section .flex-section .social-media-section .social-icon img {
+  width: 16px;
+  margin: auto;
+}
+.footer-section .copy-right-section .flex-section .copy-right {
+  margin-left: auto;
+}
+.footer-section .copy-right-section .flex-section .copy-right p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #666666;
+  margin-bottom: 0%;
+}
+.footer-section .copy-right-section .flex-section .payment-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+}
+.footer-section .copy-right-section .flex-section .payment-section .img {
+  width: 55px;
+}
+.footer-section .copy-right-section .flex-section .payment-section .img img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 380px) {
+  .header-section {
+    background: linear-gradient(112.04deg, #4184E9 14.01%, #19A8D1 89.83%);
+  }
+  .header-section .background {
+    background-image: url(images/header-bg.png);
+  }
+  .header-section .background::after {
+    width: 0px;
+    height: 0px;
+  }
+  .header-section .background .navbar-1 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+    padding: 10px 0;
+  }
+  .header-section .background .navbar-1::after {
+    display: none;
+  }
+  .header-section .background .navbar-1 .navbar {
+    height: auto;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-toggler {
+    border: 0;
+    outline: 0;
+    background-color: white;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-toggler ion-icon {
+    font-size: 30px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-brand {
+    width: 150px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-brand img {
+    width: 100%;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav {
+    justify-content: center;
+    align-items: center;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .star-animation {
+    display: none;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 17px;
+    line-height: 22px;
+    height: auto;
+    align-items: start;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(1) {
+    width: 65px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(1) .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(1):hover ~ .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(1):hover ~ .star-animation {
+    left: 0;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(2) {
+    width: 104px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(2):hover ~ .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(2):hover ~ .star-animation {
+    left: 65px;
+    width: 104px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(3) {
+    width: 65px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(3):hover ~ .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(3):hover ~ .star-animation {
+    left: 170px;
+    width: 65px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(4) {
+    width: 65px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(4):hover ~ .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(4):hover ~ .star-animation {
+    left: 235px;
+    width: 65px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(5) {
+    width: 65px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(5):hover ~ .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(5):hover ~ .star-animation {
+    left: 300px;
+    width: 65px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(6) {
+    width: 86px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(6):hover ~ .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(6):hover ~ .star-animation {
+    left: 365px;
+    width: 86px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 5px 0;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item-1 .nav-link-1 {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0 10px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item-1 .nav-link-1 .img-1 img {
+    width: 115px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item-1 .nav-link-1 .img-2 img {
+    width: 35px;
+  }
+  .header-section .background .hero-section .flex-section {
+    flex-direction: column;
+    margin-bottom: 250px;
+  }
+  .header-section .background .hero-section .flex-section .text-section {
+    width: 100%;
+    padding: 20px 0 0 0;
+  }
+  .header-section .background .hero-section .flex-section .text-section .txt {
+    width: 100%;
+  }
+  .header-section .background .hero-section .flex-section .text-section .txt h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+@media only screen and (max-width: 380px) and (min-width: 350px) {
+  .header-section .background .hero-section .flex-section .text-section .txt h2 {
+    font-size: 48px;
+    line-height: 55px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .header-section .background .hero-section .flex-section .text-section .txt p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .header-section .background .hero-section .flex-section .text-section .txt .button {
+    width: 160px;
+  }
+  .header-section .background .hero-section .flex-section .text-section .txt .button button {
+    padding: 5px 0;
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .header-section .background .hero-section .flex-section .image-section {
+    width: 100%;
+  }
+  .header-section .background .hero-section .flex-section .image-section .img img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .book-a-trip {
+    padding: 30px 0 0 0;
+  }
+  .book-a-trip .trip-section .title h2 {
+    font-family: "poppins";
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #121212;
+    text-align: center;
+  }
+  .book-a-trip .trip-section .info-section {
+    background-image: url("");
+  }
+  .book-a-trip .trip-section .info-section .title-btn .button {
+    width: 100%;
+    flex-direction: column;
+  }
+  .book-a-trip .trip-section .info-section .title-btn .button .animate {
+    width: 200px;
+    height: 40px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+  .book-a-trip .trip-section .info-section .title-btn .button li {
+    width: 200px;
+    height: 40px;
+  }
+  .book-a-trip .trip-section .info-section .title-btn ul li.active a {
+    color: #fff;
+  }
+  .book-a-trip .trip-section .info-section .title-btn ul li:nth-child(1).active ~ .animate {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+  .book-a-trip .trip-section .info-section .title-btn ul li:nth-child(2).active ~ .animate {
+    top: 65px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+  .book-a-trip .trip-section .info-section .title-btn ul li:nth-child(3).active ~ .animate {
+    top: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+  .book-a-trip .trip-section .info-section .first-part {
+    flex-direction: column;
+    width: 50%;
+    margin: 30px auto 0 auto;
+    align-items: start;
+  }
+  .book-a-trip .trip-section .info-section .first-part .input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .book-a-trip .trip-section .info-section .first-part .input input {
+    border: 1px solid #8d8d8d;
+  }
+  .book-a-trip .trip-section .info-section .first-part .input .form-check-label {
+    font-family: "poppins";
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #555555;
+    text-align: center;
+  }
+  .book-a-trip .trip-section .info-section .second-part {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .book-a-trip .trip-section .info-section .second-part .input-txt {
+    width: 100%;
+  }
+  .book-a-trip .trip-section .info-section .second-part .input-txt input {
+    width: 100%;
+  }
+  .book-a-trip .trip-section .info-section .second-part .input-txt input ::-moz-placeholder {
+    color: #555555;
+  }
+  .book-a-trip .trip-section .info-section .second-part .input-txt input ::placeholder {
+    color: #555555;
+  }
+  .book-a-trip .trip-section .info-section .second-part .button {
+    width: 48px;
+  }
+  .book-a-trip .trip-section .info-section .second-part .button img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .destinations-section {
+    padding: 30px 0 0 0;
+    background-image: url("");
+  }
+  .destinations-section .title h2 {
+    font-size: 40px;
+    line-height: 60px;
+    text-align: start;
+  }
+}
+@media only screen and (max-width: 380px) and (min-width: 350px) {
+  .destinations-section .title h2 {
+    font-size: 45px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .destinations-section .title p {
+    font-size: 14px;
+    line-height: 26px;
+    text-align: start;
+  }
+}
+@media only screen and (max-width: 380px) and (min-width: 350px) {
+  .destinations-section .title p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .destinations-section .card-1 {
+    width: 95%;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .best-deals {
+    padding: 40px 0 0 0;
+    background-image: url("");
+  }
+  .best-deals .flex-section {
+    flex-direction: column;
+  }
+  .best-deals .flex-section .img {
+    width: 100%;
+  }
+  .best-deals .flex-section .img img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .plan-your-travel {
+    padding: 40px 0 0 0;
+    background-image: url("");
+  }
+  .plan-your-travel .image {
+    width: 100%;
+  }
+  .plan-your-travel .image img {
+    width: 100%;
+  }
+  .plan-your-travel .text-section {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .plan-your-travel .text-section .title h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .plan-your-travel .title-text {
+    margin-top: 20px;
+  }
+  .plan-your-travel .title-text .flex .img {
+    width: 44px;
+  }
+  .plan-your-travel .title-text .flex .img img {
+    width: 100%;
+  }
+  .plan-your-travel .title-text .flex .txt p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .booking-section {
+    padding: 50px 0;
+    background-image: url("");
+  }
+  .booking-section .text-part {
+    width: 100%;
+  }
+  .booking-section .text-part .title h2 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .booking-section .text-part .title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .booking-section .image-part {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .booking-section .image-part img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .newsletter-section {
+    padding: 30px 10px;
+    margin-top: 0px;
+  }
+  .newsletter-section .newsletter-text h3 {
+    font-size: 16px;
+  }
+  .newsletter-section .newsletter-text h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+  }
+  .newsletter-section .newsletter-text p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  .newsletter-section .input-section {
+    width: 100%;
+    gap: 10px;
+  }
+  .newsletter-section .input-section .input-txt {
+    width: 65%;
+  }
+  .newsletter-section .input-section .input-txt input {
+    width: 100%;
+  }
+  .newsletter-section .input-section .btn-1 {
+    width: 35%;
+  }
+  .newsletter-section .input-section .btn-1 button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .footer-section {
+    padding: 40px 0 0 0;
+  }
+  .footer-section .footer-flex-section {
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .footer-section .footer-flex-section .footer-flex {
+    width: 100%;
+  }
+  .footer-section .footer-flex-section .footer-flex .title h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .footer-section .footer-flex-section .footer-flex .text {
+    margin-top: 14px;
+  }
+  .footer-section .footer-flex-section .footer-flex .text .flex .img {
+    width: 16px;
+  }
+  .footer-section .footer-flex-section .footer-flex .text .flex .img img {
+    width: 100%;
+  }
+  .footer-section .footer-flex-section .footer-flex .text .txt p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+  }
+  .footer-section .footer-flex-section .footer-flex .image-section {
+    gap: 20px;
+  }
+  .footer-section .footer-flex-section .footer-flex .image-section .image img {
+    width: 100%;
+  }
+  .footer-section .copy-right-section {
+    margin-top: 17px;
+  }
+  .footer-section .copy-right-section .flex-section {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 30px;
+  }
+  .footer-section .copy-right-section .flex-section .copy-right {
+    margin-left: 0;
+  }
+  .footer-section .copy-right-section .flex-section .copy-right p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .footer-section .copy-right-section .flex-section .payment-section {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .footer-section .copy-right-section .flex-section .payment-section .img {
+    width: 55px;
+  }
+  .footer-section .copy-right-section .flex-section .payment-section .img img {
+    width: 100%;
+  }
+}
+@media (min-width: 381px) and (max-width: 575px) {
+  .header-section {
+    background: linear-gradient(112.04deg, #4184E9 14.01%, #19A8D1 89.83%);
+  }
+  .header-section .background {
+    background-image: url(images/header-bg.png);
+  }
+  .header-section .background::after {
+    width: 0px;
+    height: 0px;
+  }
+  .header-section .background .navbar-1 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+    padding: 10px 0;
+  }
+  .header-section .background .navbar-1::after {
+    display: none;
+  }
+  .header-section .background .navbar-1 .navbar {
+    height: auto;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-toggler {
+    border: 0;
+    outline: 0;
+    background-color: white;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-toggler ion-icon {
+    font-size: 30px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-brand {
+    width: 150px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-brand img {
+    width: 100%;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav {
+    justify-content: center;
+    align-items: center;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .star-animation {
+    display: none;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 17px;
+    line-height: 22px;
+    height: auto;
+    align-items: start;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(1) {
+    width: 65px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(1) .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(1):hover ~ .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(1):hover ~ .star-animation {
+    left: 0;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(2) {
+    width: 104px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(2):hover ~ .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(2):hover ~ .star-animation {
+    left: 65px;
+    width: 104px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(3) {
+    width: 65px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(3):hover ~ .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(3):hover ~ .star-animation {
+    left: 170px;
+    width: 65px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(4) {
+    width: 65px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(4):hover ~ .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(4):hover ~ .star-animation {
+    left: 235px;
+    width: 65px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(5) {
+    width: 65px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(5):hover ~ .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(5):hover ~ .star-animation {
+    left: 300px;
+    width: 65px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(6) {
+    width: 86px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(6):hover ~ .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(6):hover ~ .star-animation {
+    left: 365px;
+    width: 86px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 5px 0;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item-1 .nav-link-1 {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0 10px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item-1 .nav-link-1 .img-1 img {
+    width: 115px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item-1 .nav-link-1 .img-2 img {
+    width: 35px;
+  }
+  .header-section .background .hero-section .flex-section {
+    flex-direction: column;
+    margin-bottom: 300px;
+  }
+  .header-section .background .hero-section .flex-section .text-section {
+    width: 100%;
+    padding: 20px 0 0 0;
+  }
+  .header-section .background .hero-section .flex-section .text-section .txt {
+    width: 100%;
+  }
+  .header-section .background .hero-section .flex-section .text-section .txt h2 {
+    font-size: 55px;
+    line-height: 60px;
+  }
+  .header-section .background .hero-section .flex-section .text-section .txt p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 100%;
+  }
+  .header-section .background .hero-section .flex-section .text-section .txt .button {
+    width: 160px;
+  }
+  .header-section .background .hero-section .flex-section .text-section .txt .button button {
+    padding: 5px 0;
+    font-size: 16px;
+  }
+  .header-section .background .hero-section .flex-section .image-section {
+    width: 100%;
+  }
+  .header-section .background .hero-section .flex-section .image-section .img img {
+    width: 100%;
+  }
+  .book-a-trip {
+    padding: 30px 0 0 0;
+  }
+  .book-a-trip .trip-section .title h2 {
+    font-family: "poppins";
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #121212;
+    text-align: center;
+  }
+  .book-a-trip .trip-section .info-section {
+    background-image: url("");
+  }
+  .book-a-trip .trip-section .info-section .title-btn .button {
+    width: 100%;
+    flex-direction: column;
+  }
+  .book-a-trip .trip-section .info-section .title-btn .button .animate {
+    width: 200px;
+    height: 40px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+  .book-a-trip .trip-section .info-section .title-btn .button li {
+    width: 200px;
+    height: 40px;
+  }
+  .book-a-trip .trip-section .info-section .title-btn ul li.active a {
+    color: #fff;
+  }
+  .book-a-trip .trip-section .info-section .title-btn ul li:nth-child(1).active ~ .animate {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+  .book-a-trip .trip-section .info-section .title-btn ul li:nth-child(2).active ~ .animate {
+    top: 65px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+  .book-a-trip .trip-section .info-section .title-btn ul li:nth-child(3).active ~ .animate {
+    top: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+  .book-a-trip .trip-section .info-section .first-part {
+    flex-direction: column;
+    width: 50%;
+    margin: 30px auto 0 auto;
+    align-items: start;
+  }
+}
+@media only screen and (min-width: 381px) and (max-width: 575px) and (min-width: 430px) {
+  .book-a-trip .trip-section .info-section .first-part {
+    flex-direction: row;
+    width: 100%;
+  }
+}
+@media (min-width: 381px) and (max-width: 575px) {
+  .book-a-trip .trip-section .info-section .first-part .input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .book-a-trip .trip-section .info-section .first-part .input input {
+    border: 1px solid #8d8d8d;
+  }
+  .book-a-trip .trip-section .info-section .first-part .input .form-check-label {
+    font-family: "poppins";
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #555555;
+    text-align: center;
+  }
+}
+@media (min-width: 381px) and (max-width: 575px) {
+  .book-a-trip .trip-section .info-section .second-part {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .book-a-trip .trip-section .info-section .second-part .input-txt {
+    width: 100%;
+    justify-content: start;
+  }
+  .book-a-trip .trip-section .info-section .second-part .input-txt input {
+    width: 100%;
+  }
+  .book-a-trip .trip-section .info-section .second-part .input-txt input ::-moz-placeholder {
+    color: #555555;
+  }
+  .book-a-trip .trip-section .info-section .second-part .input-txt input ::placeholder {
+    color: #555555;
+  }
+  .book-a-trip .trip-section .info-section .second-part .button {
+    width: 48px;
+  }
+  .book-a-trip .trip-section .info-section .second-part .button img {
+    width: 100%;
+  }
+}
+@media (min-width: 381px) and (max-width: 575px) {
+  .destinations-section {
+    padding: 30px 0 0 0;
+    background-image: url("");
+  }
+  .destinations-section .title h2 {
+    font-size: 50px;
+    line-height: 65px;
+    text-align: start;
+  }
+  .destinations-section .title p {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: start;
+  }
+  .destinations-section .card-1 {
+    width: 95%;
+    margin: auto;
+  }
+}
+@media (min-width: 381px) and (max-width: 575px) {
+  .best-deals {
+    padding: 30px 0 0 0;
+    background-image: url("");
+  }
+  .best-deals .flex-section {
+    flex-direction: column;
+  }
+  .best-deals .flex-section .img {
+    width: 100%;
+  }
+  .best-deals .flex-section .img img {
+    width: 100%;
+  }
+}
+@media (min-width: 381px) and (max-width: 575px) {
+  .plan-your-travel {
+    padding: 40px 0 0;
+    background-image: url("");
+  }
+  .plan-your-travel .image {
+    width: 100%;
+  }
+  .plan-your-travel .image img {
+    width: 100%;
+  }
+  .plan-your-travel .text-section {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .plan-your-travel .text-section .title h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .plan-your-travel .title-text {
+    margin-top: 20px;
+  }
+  .plan-your-travel .title-text .flex .img {
+    width: 44px;
+  }
+  .plan-your-travel .title-text .flex .img img {
+    width: 100%;
+  }
+  .plan-your-travel .title-text .flex .txt h2 {
+    font-size: 20px;
+  }
+  .plan-your-travel .title-text .flex .txt p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+  }
+}
+@media (min-width: 381px) and (max-width: 575px) {
+  .booking-section {
+    padding: 50px 0;
+    background-image: url("");
+  }
+  .booking-section .text-part {
+    width: 100%;
+  }
+  .booking-section .text-part .title h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .booking-section .text-part .title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .booking-section .image-part {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .booking-section .image-part img {
+    width: 100%;
+  }
+}
+@media (min-width: 381px) and (max-width: 575px) {
+  .newsletter-section {
+    padding: 30px 10px;
+    margin-top: 0px;
+  }
+  .newsletter-section .newsletter-text h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+@media only screen and (min-width: 381px) and (max-width: 575px) and (min-width: 450px) {
+  .newsletter-section .newsletter-text h2 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+}
+@media (min-width: 381px) and (max-width: 575px) {
+  .newsletter-section .newsletter-text p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+}
+@media (min-width: 381px) and (max-width: 575px) {
+  .newsletter-section .input-section {
+    width: 100%;
+    gap: 10px;
+  }
+  .newsletter-section .input-section .input-txt {
+    width: 65%;
+  }
+  .newsletter-section .input-section .input-txt input {
+    width: 100%;
+  }
+  .newsletter-section .input-section .btn-1 {
+    width: 35%;
+  }
+  .newsletter-section .input-section .btn-1 button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+  }
+}
+@media (min-width: 381px) and (max-width: 575px) {
+  .footer-section {
+    padding: 40px 0 0 0;
+  }
+  .footer-section .footer-flex-section {
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .footer-section .footer-flex-section .footer-flex {
+    width: 100%;
+  }
+  .footer-section .footer-flex-section .footer-flex .title h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .footer-section .footer-flex-section .footer-flex .text {
+    margin-top: 14px;
+  }
+  .footer-section .footer-flex-section .footer-flex .text .flex .img {
+    width: 16px;
+  }
+  .footer-section .footer-flex-section .footer-flex .text .flex .img img {
+    width: 100%;
+  }
+  .footer-section .footer-flex-section .footer-flex .text .txt p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+  }
+  .footer-section .footer-flex-section .footer-flex .image-section {
+    gap: 20px;
+  }
+  .footer-section .footer-flex-section .footer-flex .image-section .image img {
+    width: 100%;
+  }
+  .footer-section .copy-right-section {
+    margin-top: 17px;
+  }
+  .footer-section .copy-right-section .flex-section {
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+  }
+  .footer-section .copy-right-section .flex-section .copy-right {
+    margin-left: 0;
+  }
+  .footer-section .copy-right-section .flex-section .copy-right p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .footer-section .copy-right-section .flex-section .payment-section {
+    margin-left: 0;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .footer-section .copy-right-section .flex-section .payment-section .img {
+    width: 55px;
+  }
+  .footer-section .copy-right-section .flex-section .payment-section .img img {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .header-section {
+    background: linear-gradient(112.04deg, #4184E9 14.01%, #19A8D1 89.83%);
+  }
+  .header-section .background {
+    background-image: url(images/header-bg.png);
+  }
+  .header-section .background::after {
+    width: 0px;
+    height: 0px;
+  }
+  .header-section .background .navbar-1 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+    padding: 10px 0;
+  }
+  .header-section .background .navbar-1::after {
+    display: none;
+  }
+  .header-section .background .navbar-1 .navbar {
+    height: auto;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-toggler {
+    border: 0;
+    outline: 0;
+    background-color: white;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-toggler ion-icon {
+    font-size: 30px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-brand {
+    width: 150px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-brand img {
+    width: 100%;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav {
+    justify-content: center;
+    align-items: center;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .star-animation {
+    display: none;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 17px;
+    line-height: 22px;
+    height: auto;
+    align-items: start;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(1) {
+    width: 65px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(1) .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(1):hover ~ .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(1):hover ~ .star-animation {
+    left: 0;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(2) {
+    width: 104px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(2):hover ~ .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(2):hover ~ .star-animation {
+    left: 65px;
+    width: 104px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(3) {
+    width: 65px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(3):hover ~ .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(3):hover ~ .star-animation {
+    left: 170px;
+    width: 65px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(4) {
+    width: 65px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(4):hover ~ .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(4):hover ~ .star-animation {
+    left: 235px;
+    width: 65px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(5) {
+    width: 65px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(5):hover ~ .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(5):hover ~ .star-animation {
+    left: 300px;
+    width: 65px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(6) {
+    width: 86px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(6):hover ~ .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(6):hover ~ .star-animation {
+    left: 365px;
+    width: 86px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 8px 0;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item-1 .nav-link-1 {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0 10px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item-1 .nav-link-1 .img-1 img {
+    width: 115px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item-1 .nav-link-1 .img-2 img {
+    width: 35px;
+  }
+  .header-section .background .hero-section .flex-section {
+    flex-direction: column;
+    margin-bottom: 300px;
+  }
+  .header-section .background .hero-section .flex-section .text-section {
+    width: 100%;
+    padding: 20px 0 0 0;
+  }
+  .header-section .background .hero-section .flex-section .text-section .txt {
+    width: 100%;
+  }
+  .header-section .background .hero-section .flex-section .text-section .txt h2 {
+    font-size: 68px;
+    line-height: 70px;
+  }
+  .header-section .background .hero-section .flex-section .text-section .txt p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .header-section .background .hero-section .flex-section .text-section .txt .button {
+    width: 160px;
+  }
+  .header-section .background .hero-section .flex-section .text-section .txt .button button {
+    padding: 5px 0;
+    font-size: 16px;
+  }
+  .header-section .background .hero-section .flex-section .image-section {
+    width: 100%;
+  }
+  .header-section .background .hero-section .flex-section .image-section .img img {
+    width: 100%;
+  }
+  .book-a-trip {
+    padding: 30px 0 0 0;
+  }
+  .book-a-trip .trip-section .title h2 {
+    font-family: "poppins";
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #121212;
+    text-align: center;
+  }
+  .book-a-trip .trip-section .info-section {
+    background-image: url("");
+  }
+  .book-a-trip .trip-section .info-section .title-btn .button {
+    width: 100%;
+    flex-direction: column;
+  }
+  .book-a-trip .trip-section .info-section .title-btn .button .animate {
+    width: 200px;
+    height: 40px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+  .book-a-trip .trip-section .info-section .title-btn .button li {
+    width: 200px;
+    height: 40px;
+  }
+  .book-a-trip .trip-section .info-section .title-btn ul li.active a {
+    color: #fff;
+  }
+  .book-a-trip .trip-section .info-section .title-btn ul li:nth-child(1).active ~ .animate {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+  .book-a-trip .trip-section .info-section .title-btn ul li:nth-child(2).active ~ .animate {
+    top: 65px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+  .book-a-trip .trip-section .info-section .title-btn ul li:nth-child(3).active ~ .animate {
+    top: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+  .book-a-trip .trip-section .info-section .first-part {
+    width: 95%;
+    margin: 30px auto 0 auto;
+    align-items: start;
+  }
+  .book-a-trip .trip-section .info-section .first-part .input {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+  }
+  .book-a-trip .trip-section .info-section .first-part .input input {
+    border: 1px solid #8d8d8d;
+  }
+  .book-a-trip .trip-section .info-section .first-part .input .form-check-label {
+    font-family: "poppins";
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #555555;
+    text-align: center;
+  }
+  .book-a-trip .trip-section .info-section .second-part {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .book-a-trip .trip-section .info-section .second-part .input-txt {
+    width: 100%;
+    justify-content: start;
+  }
+  .book-a-trip .trip-section .info-section .second-part .input-txt input {
+    width: 100%;
+  }
+  .book-a-trip .trip-section .info-section .second-part .input-txt input ::-moz-placeholder {
+    color: #555555;
+  }
+  .book-a-trip .trip-section .info-section .second-part .input-txt input ::placeholder {
+    color: #555555;
+  }
+  .book-a-trip .trip-section .info-section .second-part .button {
+    width: 48px;
+  }
+  .book-a-trip .trip-section .info-section .second-part .button img {
+    width: 100%;
+  }
+  .destinations-section {
+    padding: 30px 0 0 0;
+    background-image: url("");
+  }
+  .destinations-section .title h2 {
+    font-size: 50px;
+    line-height: 65px;
+    text-align: start;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) and (min-width: 682px) {
+  .destinations-section .title h2 {
+    text-align: center;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .destinations-section .title p {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: start;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) and (min-width: 682px) {
+  .destinations-section .title p {
+    text-align: center;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .destinations-section .card-1 {
+    width: 95%;
+    margin: auto;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .best-deals {
+    padding: 30px 0 0 0;
+    background-image: url("");
+  }
+  .best-deals .flex-section {
+    flex-direction: column;
+  }
+  .best-deals .flex-section .img {
+    width: 100%;
+  }
+  .best-deals .flex-section .img img {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .plan-your-travel {
+    padding: 40px 0 0 0;
+    background-image: url("");
+  }
+  .plan-your-travel .image {
+    width: 100%;
+  }
+  .plan-your-travel .image img {
+    width: 100%;
+  }
+  .plan-your-travel .text-section {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .plan-your-travel .text-section .title h2 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .plan-your-travel .title-text {
+    margin-top: 20px;
+  }
+  .plan-your-travel .title-text .flex .img {
+    width: 44px;
+  }
+  .plan-your-travel .title-text .flex .img img {
+    width: 100%;
+  }
+  .plan-your-travel .title-text .flex .txt h2 {
+    font-size: 20px;
+  }
+  .plan-your-travel .title-text .flex .txt p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .booking-section {
+    padding: 50px 0;
+    background-image: url("");
+  }
+  .booking-section .text-part {
+    width: 100%;
+  }
+  .booking-section .text-part .title h2 {
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 75px;
+  }
+  .booking-section .text-part .title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .booking-section .image-part {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .booking-section .image-part img {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .newsletter-section {
+    padding: 30px 10px;
+    margin-top: 0px;
+  }
+  .newsletter-section .newsletter-text h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) and (min-width: 450px) {
+  .newsletter-section .newsletter-text h2 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .newsletter-section .newsletter-text p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .newsletter-section .input-section {
+    width: 100%;
+    gap: 10px;
+  }
+  .newsletter-section .input-section .input-txt {
+    width: 65%;
+  }
+  .newsletter-section .input-section .input-txt input {
+    width: 100%;
+  }
+  .newsletter-section .input-section .btn-1 {
+    width: 35%;
+  }
+  .newsletter-section .input-section .btn-1 button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .footer-section {
+    padding: 40px 0 0 0;
+  }
+  .footer-section .footer-flex-section {
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) and (min-width: 600px) {
+  .footer-section .footer-flex-section {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .footer-section .footer-flex-section .footer-flex {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) and (min-width: 600px) {
+  .footer-section .footer-flex-section .footer-flex {
+    width: 40%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .footer-section .footer-flex-section .footer-flex .title h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .footer-section .footer-flex-section .footer-flex .text {
+    margin-top: 14px;
+  }
+  .footer-section .footer-flex-section .footer-flex .text .flex .img {
+    width: 16px;
+  }
+  .footer-section .footer-flex-section .footer-flex .text .flex .img img {
+    width: 100%;
+  }
+  .footer-section .footer-flex-section .footer-flex .text .txt p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .footer-section .footer-flex-section .footer-flex .image-section {
+    gap: 20px;
+  }
+  .footer-section .footer-flex-section .footer-flex .image-section .image img {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .footer-section .copy-right-section {
+    margin-top: 17px;
+  }
+  .footer-section .copy-right-section .flex-section {
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) and (min-width: 650px) {
+  .footer-section .copy-right-section .flex-section {
+    align-items: center;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .footer-section .copy-right-section .flex-section .social-media-section {
+    margin-right: 0;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .footer-section .copy-right-section .flex-section .copy-right {
+    margin-left: 0;
+  }
+  .footer-section .copy-right-section .flex-section .copy-right p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .footer-section .copy-right-section .flex-section .payment-section {
+    margin-left: 0;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .footer-section .copy-right-section .flex-section .payment-section .img {
+    width: 55px;
+  }
+  .footer-section .copy-right-section .flex-section .payment-section .img img {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  body .container-fluid {
+    width: calc(100% - 60px);
+    margin: auto;
+  }
+  .header-section {
+    background: linear-gradient(112.04deg, #4184E9 14.01%, #19A8D1 89.83%);
+  }
+  .header-section .background {
+    background-image: url(images/header-bg.png);
+  }
+  .header-section .background::after {
+    width: 0px;
+    height: 0px;
+  }
+  .header-section .background .navbar-1 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+    padding: 10px 0;
+  }
+  .header-section .background .navbar-1::after {
+    display: none;
+  }
+  .header-section .background .navbar-1 .navbar {
+    height: auto;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-toggler {
+    border: 0;
+    outline: 0;
+    background-color: white;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-toggler ion-icon {
+    font-size: 30px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-brand {
+    width: 150px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-brand img {
+    width: 100%;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav {
+    justify-content: center;
+    align-items: center;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .star-animation {
+    display: none;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 17px;
+    line-height: 22px;
+    height: auto;
+    align-items: start;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(1) {
+    width: 65px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(1) .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(1):hover ~ .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(1):hover ~ .star-animation {
+    left: 0;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(2) {
+    width: 104px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(2):hover ~ .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(2):hover ~ .star-animation {
+    left: 65px;
+    width: 104px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(3) {
+    width: 65px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(3):hover ~ .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(3):hover ~ .star-animation {
+    left: 170px;
+    width: 65px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(4) {
+    width: 65px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(4):hover ~ .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(4):hover ~ .star-animation {
+    left: 235px;
+    width: 65px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(5) {
+    width: 65px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(5):hover ~ .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(5):hover ~ .star-animation {
+    left: 300px;
+    width: 65px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(6) {
+    width: 86px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(6):hover ~ .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item:nth-child(6):hover ~ .star-animation {
+    left: 365px;
+    width: 86px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 8px 0;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item-1 .nav-link-1 {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0 10px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item-1 .nav-link-1 .img-1 img {
+    width: 115px;
+  }
+  .header-section .background .navbar-1 .navbar .navbar-nav .nav-item-1 .nav-link-1 .img-2 img {
+    width: 35px;
+  }
+  .header-section .background .hero-section .flex-section {
+    margin-top: 50px;
+    margin-bottom: 140px;
+  }
+  .header-section .background .hero-section .flex-section .text-section {
+    width: 100%;
+  }
+  .header-section .background .hero-section .flex-section .text-section .txt {
+    width: 100%;
+  }
+  .header-section .background .hero-section .flex-section .text-section .txt h2 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+  .header-section .background .hero-section .flex-section .text-section .txt p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .header-section .background .hero-section .flex-section .text-section .txt .button {
+    width: 160px;
+  }
+  .header-section .background .hero-section .flex-section .text-section .txt .button button {
+    padding: 5px 0;
+    font-size: 16px;
+  }
+  .header-section .background .hero-section .flex-section .image-section {
+    width: 100%;
+  }
+  .header-section .background .hero-section .flex-section .image-section .img img {
+    width: 100%;
+  }
+  .book-a-trip {
+    padding: 30px 0 0 0;
+  }
+  .book-a-trip .trip-section {
+    background-image: url("");
+  }
+  .book-a-trip .trip-section .title h2 {
+    font-family: "poppins";
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #121212;
+    text-align: center;
+  }
+  .book-a-trip .trip-section .info-section .first-part {
+    width: 95%;
+    margin: 30px auto 0 auto;
+    align-items: start;
+  }
+  .book-a-trip .trip-section .info-section .first-part .input {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+  }
+  .book-a-trip .trip-section .info-section .first-part .input input {
+    border: 1px solid #8d8d8d;
+  }
+  .book-a-trip .trip-section .info-section .first-part .input .form-check-label {
+    font-family: "poppins";
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #555555;
+    text-align: center;
+  }
+  .book-a-trip .trip-section .info-section .second-part {
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  .book-a-trip .trip-section .info-section .second-part .input-txt {
+    width: 220px;
+  }
+  .book-a-trip .trip-section .info-section .second-part .input-txt input {
+    width: 100%;
+  }
+  .book-a-trip .trip-section .info-section .second-part .input-txt input ::-moz-placeholder {
+    color: #555555;
+  }
+  .book-a-trip .trip-section .info-section .second-part .input-txt input ::placeholder {
+    color: #555555;
+  }
+  .book-a-trip .trip-section .info-section .second-part .button {
+    width: 48px;
+  }
+  .book-a-trip .trip-section .info-section .second-part .button img {
+    width: 100%;
+  }
+  .destinations-section {
+    background-image: url("");
+    padding: 50px 0 0 0;
+  }
+  .destinations-section .title h2 {
+    font-size: 50px;
+    line-height: 65px;
+    text-align: center;
+  }
+  .destinations-section .title p {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+  }
+  .destinations-section .card-1 {
+    width: 95%;
+    margin: auto;
+  }
+  .best-deals {
+    background-image: url("");
+    padding: 60px 0 0 0;
+  }
+  .best-deals .flex-section .img {
+    width: 34%;
+  }
+  .best-deals .flex-section .img img {
+    width: 100%;
+  }
+  .plan-your-travel {
+    position: static;
+    background-image: url("");
+    padding: 80px 0 0 0;
+  }
+  .plan-your-travel .image {
+    width: 100%;
+    position: sticky;
+    top: 15px;
+  }
+  .plan-your-travel .image img {
+    width: 100%;
+  }
+  .plan-your-travel .text-section {
+    position: sticky;
+    width: 100%;
+  }
+  .plan-your-travel .text-section .title h2 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .plan-your-travel .title-text {
+    margin-top: 20px;
+  }
+  .plan-your-travel .title-text .flex .img {
+    width: 44px;
+  }
+  .plan-your-travel .title-text .flex .img img {
+    width: 100%;
+  }
+  .plan-your-travel .title-text .flex .txt h2 {
+    font-size: 20px;
+  }
+  .plan-your-travel .title-text .flex .txt p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+  }
+  .booking-section {
+    background-image: url("");
+  }
+  .booking-section .text-part {
+    width: 100%;
+  }
+  .booking-section .text-part .title h2 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 75px;
+  }
+  .booking-section .text-part .title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .booking-section .image-part {
+    width: 100%;
+    position: sticky;
+    top: 0;
+  }
+  .booking-section .image-part img {
+    width: 100%;
+  }
+  .newsletter-section {
+    padding: 50px 50px;
+    margin-top: 0px;
+  }
+  .newsletter-section .newsletter-text h2 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .newsletter-section .newsletter-text p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  .newsletter-section .input-section {
+    width: 100%;
+    gap: 10px;
+  }
+  .newsletter-section .input-section .input-txt {
+    width: 65%;
+  }
+  .newsletter-section .input-section .input-txt input {
+    width: 100%;
+  }
+  .newsletter-section .input-section .btn-1 {
+    width: 35%;
+  }
+  .newsletter-section .input-section .btn-1 button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .footer-section .footer-flex-section {
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+  }
+  .footer-section .footer-flex-section .footer-flex {
+    width: 30%;
+  }
+  .footer-section .footer-flex-section .footer-flex .title h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .footer-section .footer-flex-section .footer-flex .text {
+    margin-top: 14px;
+  }
+  .footer-section .footer-flex-section .footer-flex .text .flex .img {
+    width: 16px;
+  }
+  .footer-section .footer-flex-section .footer-flex .text .flex .img img {
+    width: 100%;
+  }
+  .footer-section .footer-flex-section .footer-flex .text .txt p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+  }
+  .footer-section .footer-flex-section .footer-flex .image-section {
+    gap: 20px;
+  }
+  .footer-section .footer-flex-section .footer-flex .image-section .image img {
+    width: 100%;
+  }
+  .footer-section .copy-right-section {
+    margin-top: 17px;
+  }
+  .footer-section .copy-right-section .flex-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .footer-section .copy-right-section .flex-section .social-media-section {
+    margin-right: 0;
+  }
+  .footer-section .copy-right-section .flex-section .copy-right {
+    margin-left: 0;
+  }
+  .footer-section .copy-right-section .flex-section .copy-right p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .footer-section .copy-right-section .flex-section .payment-section {
+    margin-left: 0;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .footer-section .copy-right-section .flex-section .payment-section .img {
+    width: 55px;
+  }
+  .footer-section .copy-right-section .flex-section .payment-section .img img {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  body .container-fluid {
+    width: calc(100% - 60px);
+    margin: auto;
+  }
+  .header-section .background::after {
+    bottom: -65px;
+    right: -605px;
+  }
+  .header-section .background .navbar-1::after {
+    width: 125px;
+    height: 230px;
+    top: 0;
+    right: -60px;
+  }
+  .header-section .background .hero-section .flex-section {
+    margin-top: 90px;
+    margin-bottom: 180px;
+    position: relative;
+  }
+  .book-a-trip .trip-section .info-section .second-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .book-a-trip .trip-section .info-section .second-part .input-txt {
+    width: 220px;
+  }
+  .book-a-trip .trip-section .info-section .second-part .input-txt input {
+    width: 100px;
+  }
+  .book-a-trip .trip-section .info-section .second-part .button {
+    width: 48px;
+  }
+  .book-a-trip .trip-section .info-section .second-part .button img {
+    width: 100%;
+  }
+  .plan-your-travel {
+    margin-top: 110px;
+    background-image: url("");
+    padding: 0;
+    gap: 5px;
+  }
+  .plan-your-travel .col-md-6 {
+    padding: 0;
+  }
+  .plan-your-travel .image {
+    width: 100%;
+    position: sticky;
+    top: 15px;
+  }
+  .plan-your-travel .image img {
+    width: 100%;
+  }
+  .footer-section .footer-flex-section {
+    gap: 15px;
+    padding-bottom: 68px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) and (min-width: 1035px) {
+  .footer-section .footer-flex-section {
+    gap: 25px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .footer-section .footer-flex-section .footer-flex {
+    width: 25%;
+  }
+  .footer-section .footer-flex-section .footer-flex .title h2 {
+    font-size: 17px;
+    line-height: 27px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) and (min-width: 1030px) {
+  .footer-section .footer-flex-section .footer-flex .title h2 {
+    font-size: 18px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .footer-section .footer-flex-section .footer-flex .text {
+    margin-top: 14px;
+  }
+  .footer-section .footer-flex-section .footer-flex .text ul li a {
+    font-size: 11.5px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) and (min-width: 1060px) {
+  .footer-section .footer-flex-section .footer-flex .text ul li a {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) and (min-width: 1130px) {
+  .footer-section .footer-flex-section .footer-flex .text ul li a {
+    font-size: 13px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .footer-section .footer-flex-section .footer-flex .text ul li .img {
+    margin-top: -2px;
+  }
+  .footer-section .footer-flex-section .footer-flex .text ul li .img img {
+    width: 12px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .footer-section .copy-right-section {
+    margin-top: 17px;
+  }
+  .footer-section .copy-right-section .flex-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-section .copy-right-section .flex-section .social-media-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-right: auto;
+  }
+  .footer-section .copy-right-section .flex-section .social-media-section .social-icon {
+    width: 42px;
+    height: 42px;
+    background-color: #1D71B8;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-section .copy-right-section .flex-section .social-media-section .social-icon img {
+    width: 16px;
+    margin: auto;
+  }
+  .footer-section .copy-right-section .flex-section .copy-right {
+    margin-left: auto;
+  }
+  .footer-section .copy-right-section .flex-section .copy-right p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #666666;
+    margin-bottom: 0%;
+  }
+  .footer-section .copy-right-section .flex-section .payment-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-left: auto;
+  }
+  .footer-section .copy-right-section .flex-section .payment-section .img {
+    width: 55px;
+  }
+  .footer-section .copy-right-section .flex-section .payment-section .img img {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .header-section .background::after {
+    bottom: -25px;
+    right: -520px;
+    width: 1200px;
+    height: 1200px;
+  }
+}
+@media only screen and (min-width: 1366px) and (min-width: 1430px) {
+  .header-section .background::after {
+    bottom: -25px;
+    right: -520px;
+    width: 1200px;
+    height: 1200px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .header-section .background .hero-section {
+    overflow: hidden;
+  }
+  .header-section .background .hero-section .flex-section .text-section {
+    width: 50%;
+  }
+  .header-section .background .hero-section .flex-section .text-section .txt {
+    width: 447px;
+  }
+  .header-section .background .hero-section .flex-section .text-section .txt h2 {
+    font-family: "poppins";
+    font-style: normal;
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 76px;
+    color: rgb(255, 255, 255);
+  }
+  .header-section .background .hero-section .flex-section .text-section .txt h2 span {
+    font-weight: 400;
+  }
+  .header-section .background .hero-section .flex-section .text-section .txt p {
+    font-family: "poppins";
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(255, 255, 255);
+    width: 445px;
+  }
+  .header-section .background .hero-section .flex-section .text-section .txt .button {
+    width: 160px;
+  }
+  .header-section .background .hero-section .flex-section .text-section .txt .button button {
+    width: 100%;
+    height: 45px;
+    color: #589CC3;
+    font-family: "poppins";
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding: 10px 0;
+  }
+  .header-section .background .hero-section .flex-section .image-section {
+    width: 50%;
+  }
+  .header-section .background .hero-section .flex-section .image-section .img img {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .book-a-trip {
+    margin-top: 10px;
+  }
+  .book-a-trip .trip-section .info-section .title-btn ul li.active a {
+    color: #fff;
+  }
+  .book-a-trip .trip-section .info-section .title-btn ul li:nth-child(1).active ~ .animate {
+    left: 5px;
+  }
+  .book-a-trip .trip-section .info-section .title-btn ul li:nth-child(2).active ~ .animate {
+    left: 190px;
+  }
+  .book-a-trip .trip-section .info-section .title-btn ul li:nth-child(3).active ~ .animate {
+    left: 375px;
+  }
+}
+@media only screen and (min-width: 1566px) {
+  .header-section .background::after {
+    bottom: 15px;
+    right: -530px;
+    width: 1230px;
+    height: 1270px;
+  }
+}
+@media only screen and (min-width: 1566px) and (min-width: 1630px) {
+  .header-section .background::after {
+    bottom: 15px;
+    right: -530px;
+    width: 1230px;
+    height: 1270px;
+  }
+}
+@media only screen and (min-width: 1566px) and (min-width: 1730px) {
+  .header-section .background::after {
+    bottom: 25px;
+    right: -510px;
+    width: 1230px;
+    height: 1400px;
+  }
+}
+@media only screen and (min-width: 1566px) and (min-width: 1800px) {
+  .header-section .background::after {
+    bottom: 25px;
+    right: -510px;
+    width: 1230px;
+    height: 1400px;
+  }
+}
+@media only screen and (min-width: 1566px) and (min-width: 1830px) {
+  .header-section .background::after {
+    bottom: 25px;
+    right: -510px;
+    width: 1230px;
+    height: 1400px;
+  }
+}
+@media only screen and (min-width: 1566px) and (min-width: 1900px) {
+  .header-section .background::after {
+    bottom: 25px;
+    right: -510px;
+    width: 1230px;
+    height: 1400px;
+  }
+}
+@media only screen and (min-width: 1566px) and (min-width: 1930px) {
+  .header-section .background::after {
+    bottom: 25px;
+    right: -510px;
+    width: 1230px;
+    height: 1400px;
+  }
+}
+@media only screen and (min-width: 2030px) {
+  .header-section .background::after {
+    bottom: 25px;
+    right: -575px;
+    width: 1350px;
+    height: 1650px;
+  }
+}
+@media only screen and (min-width: 2030px) and (min-width: 2230px) {
+  .header-section .background::after {
+    bottom: 25px;
+    right: -690px;
+    width: 1585px;
+    height: 1900px;
+  }
+}
+@media only screen and (min-width: 2030px) and (min-width: 2430px) {
+  .header-section .background::after {
+    bottom: 25px;
+    right: -690px;
+    width: 1650px;
+    height: 1900px;
+  }
+}
+@media only screen and (min-width: 2030px) and (min-width: 2630px) {
+  .header-section .background::after {
+    bottom: 25px;
+    right: -690px;
+    width: 1650px;
+    height: 1900px;
+  }
+}/*# sourceMappingURL=Travezing.css.map */
